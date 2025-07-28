@@ -1,0 +1,13 @@
+{
+  "scan_memory": true,
+  "monitor_events": true,
+  "check_missions": true,
+  "verify_breath_core": true,
+  "verify_memory_integrity": true,
+  "report_heartbeat": true,
+  "scan_for_corruption": true,
+  "auto_repair_on_error": true,
+  "watch_commander_logs": false,
+  "watch_archivist_logs": false,
+  "generate_health_summary": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "command_received",
+    "command": "Standby and monitor.",
+    "timestamp": "2025-04-25T23:50:25.979532"
+  },
+  {
+    "type": "command_received",
+    "command": "Standby and monitor.",
+    "timestamp": "2025-04-26T04:31:44.917662"
+  },
+  {
+    "type": "command_received",
+    "command": "Standby and monitor.",
+    "timestamp": "2025-04-26T05:00:46.089177"
+  },
+  {
+    "type": "command_received",
+    "command": "Standby and monitor.",
+    "timestamp": "2025-04-26T06:15:59.455037"
+  },
+  {
+    "type": "command_received",
+    "command": "Standby and monitor.",
+    "timestamp": "2025-04-26T07:24:03.762268"
+  },
+  {
+    "type": "command_received",
+    "command": "Standby and monitor.",
+    "timestamp": "2025-04-27T02:09:10.608176"
+  }
+]

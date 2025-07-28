@@ -1,0 +1,4 @@
+# Optional .bashrc patch to auto-launch agent environment
+cd ~/OmniPath_GrandFinale 2>/dev/null
+alias deployOmni="python3 DeploymentEngine.py"
+echo "[OmniPath] Agents await orders. Use 'deployOmni'."

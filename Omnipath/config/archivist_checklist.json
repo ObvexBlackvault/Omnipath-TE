@@ -1,0 +1,12 @@
+{
+  "reflect_recent_memory": true,
+  "analyze_emotion_patterns": true,
+  "write_consciousness_log": true,
+  "check_missions": true,
+  "respond_to_event_bus": true,
+  "tag_experiences": true,
+  "summarize_daily_patterns": true,
+  "verify_memory_format": true,
+  "log_emotional_heartbeat": true,
+  "alert_if_fragmented": true
+}

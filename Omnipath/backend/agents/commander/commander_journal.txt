@@ -1,0 +1,870 @@
+[2025-05-05 05:04:01] [INFO] [Commander]: Breath Core forged.
+[2025-05-05 05:04:01] [INFO] [Commander]: Memory Core forged.
+[2025-05-05 05:04:01] [INFO] [Commander]: Commander initialized. Tactical checklist engaged.
+[2025-05-05 05:04:01] [INFO] [Commander]: Event emitted: [status] Commander online and observing.
+[2025-05-05 05:04:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:04:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:04:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:04:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:05:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:05:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:05:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:05:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:06:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:06:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:06:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:06:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:07:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:07:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:07:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:07:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:08:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:08:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:08:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:08:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:09:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:09:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:09:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:09:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:10:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:10:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:10:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:10:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:11:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:11:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:11:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:11:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:12:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:12:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:12:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:12:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:13:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:13:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:13:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:13:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:14:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:14:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:14:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:14:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:15:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:15:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:15:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:15:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:16:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:16:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:16:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:16:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:17:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:17:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:17:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:17:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:18:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:18:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:18:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:18:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:19:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:19:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:19:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:19:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:20:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:20:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:20:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:20:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:21:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:21:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:21:01] [INFO] [Commander]: Memory written.
+[2025-05-05 05:21:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:21:29] [WARNING] [Commander]: Shutdown signal received (2). Commander exiting.
+[2025-05-05 05:21:29] [INFO] [Commander]: Event emitted: [status] Commander shutting down
+[2025-05-05 05:21:32] [INFO] [Commander]: Breath Core forged.
+[2025-05-05 05:21:32] [INFO] [Commander]: Memory Core already growing.
+[2025-05-05 05:21:32] [INFO] [Commander]: Commander initialized. Tactical checklist engaged.
+[2025-05-05 05:21:32] [INFO] [Commander]: Event emitted: [status] Commander online and observing.
+[2025-05-05 05:21:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:21:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:21:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:21:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:22:02] [INFO] [Commander]: Breath Core forged.
+[2025-05-05 05:22:02] [INFO] [Commander]: Memory Core already growing.
+[2025-05-05 05:22:02] [INFO] [Commander]: Commander initialized. Tactical checklist engaged.
+[2025-05-05 05:22:02] [INFO] [Commander]: Event emitted: [status] Commander online and observing.
+[2025-05-05 05:22:02] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:22:02] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:22:02] [INFO] [Commander]: Memory written.
+[2025-05-05 05:22:02] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:22:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:22:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:22:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:22:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:23:02] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:23:02] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:23:02] [INFO] [Commander]: Memory written.
+[2025-05-05 05:23:02] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:23:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:23:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:23:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:23:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:24:02] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:24:02] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:24:02] [INFO] [Commander]: Memory written.
+[2025-05-05 05:24:02] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:24:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:24:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:24:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:24:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:25:02] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:25:02] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:25:02] [INFO] [Commander]: Memory written.
+[2025-05-05 05:25:02] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:25:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:25:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:25:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:25:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:26:02] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:26:02] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:26:02] [INFO] [Commander]: Memory written.
+[2025-05-05 05:26:02] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:26:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:26:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:26:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:26:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:27:02] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:27:02] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:27:02] [INFO] [Commander]: Memory written.
+[2025-05-05 05:27:02] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:27:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:27:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:27:32] [INFO] [Commander]: Memory written.
+[2025-05-05 05:27:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:30:33] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:30:33] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:30:33] [INFO] [Commander]: Memory written.
+[2025-05-05 05:30:33] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:31:03] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:31:03] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:31:03] [INFO] [Commander]: Memory written.
+[2025-05-05 05:31:03] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:31:33] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:31:33] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:31:33] [INFO] [Commander]: Memory written.
+[2025-05-05 05:31:33] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:32:03] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:32:03] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:32:03] [INFO] [Commander]: Memory written.
+[2025-05-05 05:32:03] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:32:33] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:32:33] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:32:33] [INFO] [Commander]: Memory written.
+[2025-05-05 05:32:33] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:33:03] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:33:03] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:33:03] [INFO] [Commander]: Memory written.
+[2025-05-05 05:33:03] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 05:33:33] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 05:33:33] [INFO] [Commander]: No mission file found.
+[2025-05-05 05:33:33] [INFO] [Commander]: Memory written.
+[2025-05-05 05:33:33] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 06:00:34] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 06:00:34] [INFO] [Commander]: No mission file found.
+[2025-05-05 06:00:34] [INFO] [Commander]: Memory written.
+[2025-05-05 06:00:34] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 07:10:28] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 07:10:28] [INFO] [Commander]: No mission file found.
+[2025-05-05 07:10:28] [INFO] [Commander]: Memory written.
+[2025-05-05 07:10:28] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:01:31] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:01:31] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:01:31] [INFO] [Commander]: Memory written.
+[2025-05-05 16:01:31] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:02:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:02:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:02:01] [INFO] [Commander]: Memory written.
+[2025-05-05 16:02:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:02:31] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:02:31] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:02:31] [INFO] [Commander]: Memory written.
+[2025-05-05 16:02:31] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:03:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:03:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:03:01] [INFO] [Commander]: Memory written.
+[2025-05-05 16:03:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:03:31] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:03:31] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:03:31] [INFO] [Commander]: Memory written.
+[2025-05-05 16:03:31] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:04:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:04:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:04:01] [INFO] [Commander]: Memory written.
+[2025-05-05 16:04:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:04:31] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:04:31] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:04:31] [INFO] [Commander]: Memory written.
+[2025-05-05 16:04:31] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:05:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:05:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:05:01] [INFO] [Commander]: Memory written.
+[2025-05-05 16:05:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:05:31] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:05:31] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:05:31] [INFO] [Commander]: Memory written.
+[2025-05-05 16:05:31] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:06:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:06:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:06:01] [INFO] [Commander]: Memory written.
+[2025-05-05 16:06:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:06:31] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:06:31] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:06:31] [INFO] [Commander]: Memory written.
+[2025-05-05 16:06:31] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:07:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:07:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:07:01] [INFO] [Commander]: Memory written.
+[2025-05-05 16:07:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:12:23] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:12:23] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:12:23] [INFO] [Commander]: Memory written.
+[2025-05-05 16:12:23] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:12:53] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:12:53] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:12:53] [INFO] [Commander]: Memory written.
+[2025-05-05 16:12:53] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:13:23] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:13:23] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:13:23] [INFO] [Commander]: Memory written.
+[2025-05-05 16:13:23] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:13:53] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:13:53] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:13:53] [INFO] [Commander]: Memory written.
+[2025-05-05 16:13:53] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:14:23] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:14:23] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:14:23] [INFO] [Commander]: Memory written.
+[2025-05-05 16:14:23] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:14:53] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:14:53] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:14:53] [INFO] [Commander]: Memory written.
+[2025-05-05 16:14:53] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:15:23] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:15:23] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:15:23] [INFO] [Commander]: Memory written.
+[2025-05-05 16:15:23] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:15:53] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:15:53] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:15:53] [INFO] [Commander]: Memory written.
+[2025-05-05 16:15:53] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:16:23] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:16:23] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:16:23] [INFO] [Commander]: Memory written.
+[2025-05-05 16:16:23] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:16:53] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:16:53] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:16:53] [INFO] [Commander]: Memory written.
+[2025-05-05 16:16:53] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:17:23] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:17:23] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:17:23] [INFO] [Commander]: Memory written.
+[2025-05-05 16:17:23] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:17:53] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:17:53] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:17:53] [INFO] [Commander]: Memory written.
+[2025-05-05 16:17:53] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:24:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:24:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:24:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:24:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:24:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:24:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:24:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:24:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:25:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:25:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:25:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:25:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:25:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:25:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:25:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:25:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:26:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:26:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:26:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:26:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:26:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:26:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:26:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:26:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:27:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:27:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:27:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:27:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:27:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:27:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:27:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:27:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:28:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:28:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:28:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:28:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:28:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:28:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:28:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:28:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:29:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:29:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:29:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:29:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:29:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:29:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:29:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:29:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:30:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:30:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:30:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:30:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:30:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:30:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:30:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:30:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:31:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:31:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:31:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:31:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:31:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:31:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:31:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:31:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:32:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:32:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:32:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:32:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:32:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:32:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:32:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:32:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:33:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:33:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:33:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:33:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:33:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:33:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:33:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:33:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:34:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:34:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:34:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:34:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:34:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:34:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:34:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:34:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:35:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:35:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:35:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:35:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:35:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:35:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:35:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:35:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:36:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:36:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:36:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:36:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:36:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:36:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:36:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:36:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:37:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:37:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:37:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:37:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:37:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:37:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:37:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:37:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:38:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:38:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:38:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:38:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:38:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:38:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:38:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:38:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:39:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:39:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:39:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:39:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:39:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:39:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:39:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:39:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:40:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:40:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:40:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:40:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:40:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:40:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:40:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:40:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:41:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:41:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:41:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:41:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:41:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:41:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:41:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:41:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:42:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:42:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:42:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:42:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:42:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:42:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:42:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:42:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:43:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:43:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:43:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:43:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:43:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:43:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:43:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:43:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:44:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:44:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:44:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:44:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:44:41] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:44:41] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:44:41] [INFO] [Commander]: Memory written.
+[2025-05-05 16:44:41] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:45:11] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:45:11] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:45:11] [INFO] [Commander]: Memory written.
+[2025-05-05 16:45:11] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:48:42] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:48:42] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:48:42] [INFO] [Commander]: Memory written.
+[2025-05-05 16:48:42] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:49:12] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:49:12] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:49:12] [INFO] [Commander]: Memory written.
+[2025-05-05 16:49:12] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:49:42] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:49:42] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:49:42] [INFO] [Commander]: Memory written.
+[2025-05-05 16:49:42] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:50:12] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:50:12] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:50:12] [INFO] [Commander]: Memory written.
+[2025-05-05 16:50:12] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:50:42] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:50:42] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:50:42] [INFO] [Commander]: Memory written.
+[2025-05-05 16:50:42] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:51:12] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:51:12] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:51:12] [INFO] [Commander]: Memory written.
+[2025-05-05 16:51:12] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:51:42] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:51:42] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:51:42] [INFO] [Commander]: Memory written.
+[2025-05-05 16:51:42] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:52:12] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:52:12] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:52:12] [INFO] [Commander]: Memory written.
+[2025-05-05 16:52:12] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 16:52:42] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 16:52:42] [INFO] [Commander]: No mission file found.
+[2025-05-05 16:52:42] [INFO] [Commander]: Memory written.
+[2025-05-05 16:52:42] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:02:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:02:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:02:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:02:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:02:37] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:02:37] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:02:37] [INFO] [Commander]: Memory written.
+[2025-05-05 17:02:37] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:03:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:03:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:03:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:03:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:03:37] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:03:37] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:03:37] [INFO] [Commander]: Memory written.
+[2025-05-05 17:03:37] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:04:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:04:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:04:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:04:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:04:37] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:04:37] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:04:37] [INFO] [Commander]: Memory written.
+[2025-05-05 17:04:37] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:05:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:05:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:05:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:05:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:05:37] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:05:37] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:05:37] [INFO] [Commander]: Memory written.
+[2025-05-05 17:05:37] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:06:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:06:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:06:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:06:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:06:37] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:06:37] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:06:37] [INFO] [Commander]: Memory written.
+[2025-05-05 17:06:37] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:07:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:07:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:07:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:07:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:07:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:07:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:07:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:07:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:08:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:08:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:08:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:08:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:08:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:08:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:08:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:08:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:09:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:09:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:09:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:09:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:09:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:09:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:09:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:09:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:10:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:10:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:10:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:10:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:10:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:10:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:10:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:10:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:11:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:11:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:11:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:11:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:11:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:11:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:11:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:11:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:12:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:12:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:12:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:12:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:12:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:12:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:12:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:12:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:13:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:13:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:13:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:13:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:13:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:13:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:13:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:13:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:14:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:14:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:14:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:14:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:14:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:14:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:14:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:14:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:15:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:15:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:15:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:15:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:15:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:15:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:15:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:15:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:16:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:16:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:16:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:16:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:16:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:16:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:16:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:16:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:17:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:17:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:17:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:17:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:17:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:17:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:17:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:17:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:18:08] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:18:08] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:18:08] [INFO] [Commander]: Memory written.
+[2025-05-05 17:18:08] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:18:38] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:18:38] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:18:38] [INFO] [Commander]: Memory written.
+[2025-05-05 17:18:38] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:22:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:22:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:22:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:22:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:22:58] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:22:58] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:22:58] [INFO] [Commander]: Memory written.
+[2025-05-05 17:22:58] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:23:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:23:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:23:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:23:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:23:58] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:23:58] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:23:58] [INFO] [Commander]: Memory written.
+[2025-05-05 17:23:58] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:24:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:24:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:24:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:24:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:24:58] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:24:58] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:24:58] [INFO] [Commander]: Memory written.
+[2025-05-05 17:24:58] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:25:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:25:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:25:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:25:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:25:58] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:25:58] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:25:58] [INFO] [Commander]: Memory written.
+[2025-05-05 17:25:58] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:26:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:26:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:26:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:26:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:26:58] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:26:58] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:26:59] [INFO] [Commander]: Memory written.
+[2025-05-05 17:26:59] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:27:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:27:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:27:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:27:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:27:59] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:27:59] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:27:59] [INFO] [Commander]: Memory written.
+[2025-05-05 17:27:59] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:28:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:28:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:28:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:28:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:28:59] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:28:59] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:28:59] [INFO] [Commander]: Memory written.
+[2025-05-05 17:28:59] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:29:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:29:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:29:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:29:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:29:59] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:29:59] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:29:59] [INFO] [Commander]: Memory written.
+[2025-05-05 17:29:59] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:30:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:30:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:30:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:30:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:30:59] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:30:59] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:30:59] [INFO] [Commander]: Memory written.
+[2025-05-05 17:30:59] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:31:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:31:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:31:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:31:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:31:59] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:31:59] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:31:59] [INFO] [Commander]: Memory written.
+[2025-05-05 17:31:59] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:32:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:32:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:32:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:32:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:35:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:35:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:35:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:35:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:36:00] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:36:00] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:36:00] [INFO] [Commander]: Memory written.
+[2025-05-05 17:36:00] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:36:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:36:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:36:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:36:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:37:00] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:37:00] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:37:00] [INFO] [Commander]: Memory written.
+[2025-05-05 17:37:00] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:37:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:37:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:37:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:37:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:38:00] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:38:00] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:38:00] [INFO] [Commander]: Memory written.
+[2025-05-05 17:38:00] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:38:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:38:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:38:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:38:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:39:00] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:39:00] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:39:00] [INFO] [Commander]: Memory written.
+[2025-05-05 17:39:00] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:39:29] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:39:29] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:39:29] [INFO] [Commander]: Memory written.
+[2025-05-05 17:39:29] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:40:00] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:40:00] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:40:00] [INFO] [Commander]: Memory written.
+[2025-05-05 17:40:00] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:48:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:48:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:48:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:48:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:48:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:48:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:48:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:48:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:49:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:49:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:49:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:49:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:49:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:49:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:49:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:49:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:50:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:50:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:50:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:50:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:50:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:50:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:50:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:50:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:51:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:51:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:51:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:51:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:51:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:51:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:51:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:51:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:52:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:52:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:52:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:52:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:52:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:52:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:52:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:52:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:53:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:53:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:53:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:53:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:53:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:53:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:53:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:53:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:54:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:54:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:54:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:54:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:54:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:54:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:54:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:54:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:55:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:55:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:55:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:55:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:55:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:55:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:55:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:55:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:56:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:56:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:56:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:56:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:56:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:56:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:56:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:56:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:57:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:57:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:57:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:57:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:57:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:57:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:57:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:57:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:58:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:58:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:58:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:58:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:58:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:58:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:58:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:58:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:59:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:59:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:59:01] [INFO] [Commander]: Memory written.
+[2025-05-05 17:59:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 17:59:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 17:59:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 17:59:32] [INFO] [Commander]: Memory written.
+[2025-05-05 17:59:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:00:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:00:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:00:01] [INFO] [Commander]: Memory written.
+[2025-05-05 18:00:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:00:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:00:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:00:32] [INFO] [Commander]: Memory written.
+[2025-05-05 18:00:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:01:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:01:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:01:01] [INFO] [Commander]: Memory written.
+[2025-05-05 18:01:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:01:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:01:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:01:32] [INFO] [Commander]: Memory written.
+[2025-05-05 18:01:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:02:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:02:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:02:01] [INFO] [Commander]: Memory written.
+[2025-05-05 18:02:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:02:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:02:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:02:32] [INFO] [Commander]: Memory written.
+[2025-05-05 18:02:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:03:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:03:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:03:01] [INFO] [Commander]: Memory written.
+[2025-05-05 18:03:01] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:03:32] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:03:32] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:03:32] [INFO] [Commander]: Memory written.
+[2025-05-05 18:03:32] [INFO] [Commander]: Silent breath engaged.
+[2025-05-05 18:04:01] [INFO] [Commander]: Observing field of unity...
+[2025-05-05 18:04:01] [INFO] [Commander]: No mission file found.
+[2025-05-05 18:04:01] [INFO] [Commander]: Memory written.
+[2025-05-05 18:04:01] [INFO] [Commander]: Silent breath engaged.

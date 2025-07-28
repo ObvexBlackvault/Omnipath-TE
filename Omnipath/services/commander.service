@@ -1,0 +1,14 @@
+[Unit]
+Description=Omnipath Commander Agent
+After=network.target
+
+[Service]
+Type=simple
+User=inmoa
+WorkingDirectory=/home/inmoa/Omnipath/backend/agents/commander
+ExecStart=/home/inmoa/Omnipath/venv/bin/python3 commander.py
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

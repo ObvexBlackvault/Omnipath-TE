@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "sender": "Commander",
+      "type": "status",
+      "message": "Commander online and observing.",
+      "timestamp": "2025-05-05T12:04:01.792379"
+    },
+    {
+      "sender": "Guardian",
+      "type": "status",
+      "message": "Guardian online and protecting.",
+      "timestamp": "2025-05-05T12:04:31.508481"
+    },
+    {
+      "sender": "Commander",
+      "type": "status",
+      "message": "Commander shutting down",
+      "timestamp": "2025-05-05T12:21:29.435044"
+    },
+    {
+      "sender": "Guardian",
+      "type": "status",
+      "message": "Guardian shutting down",
+      "timestamp": "2025-05-05T12:21:29.439133"
+    },
+    {
+      "sender": "Guardian",
+      "type": "status",
+      "message": "Guardian online and protecting.",
+      "timestamp": "2025-05-05T12:21:31.734422"
+    },
+    {
+      "sender": "Guardian",
+      "type": "status",
+      "message": "Guardian online and protecting.",
+      "timestamp": "2025-05-05T12:21:32.519494"
+    },
+    {
+      "sender": "Commander",
+      "type": "status",
+      "message": "Commander online and observing.",
+      "timestamp": "2025-05-05T12:21:32.523757"
+    },
+    {
+      "sender": "Commander",
+      "type": "status",
+      "message": "Commander online and observing.",
+      "timestamp": "2025-05-05T12:22:02.206061"
+    }
+  ]
+}

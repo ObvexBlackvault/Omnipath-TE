@@ -1,0 +1,2085 @@
+[4.0K Apr 27 21:08]  /home/inmoa/Omnipath
+├── [   0 Apr 26 00:43]  .paused_state
+├── [ 578 Apr 22 18:42]  AgentLogger.py
+├── [ 853 Apr 22 18:45]  AutoDeploy.bashrc
+├── [ 199 Apr 16 15:17]  AutoDeploy.bashrc.patch
+├── [ 618 Apr 23 15:01]  CommandBridge.py
+├── [ 492 Apr 23 15:01]  CoreStatus.py
+├── [ 392 Apr 27 08:00]  FleetLauncher.py
+├── [2.5K Apr 23 16:04]  ForkAlpha.py
+├── [2.5K Apr 23 16:04]  ForkBeta.py
+├── [ 371 Apr 23 15:50]  ForkFleetController.py
+├── [1.1K Apr 23 16:00]  ForkLink.py
+├── [ 813 Apr 23 15:01]  ForkMemory.py
+├── [185M Apr 26 20:29]  Omnipath_Project.zip
+├── [ 794 Apr 22 21:53]  VoiceSynth.py
+├── [4.0K Apr 27 17:13]  backend
+│   ├── [ 328 Apr 27 09:18]  FleetLauncher.py
+│   ├── [ 637 Apr 23 15:28]  StatusBoard.jsx
+│   ├── [   0 Apr 26 00:31]  __init__.py
+│   ├── [4.0K Apr 24 21:03]  agents
+│   │   ├── [4.0K Apr 24 20:20]  agent
+│   │   │   ├── [1.0K Apr 24 20:20]  core.py
+│   │   │   ├── [1.0K Apr 24 19:39]  handler.py
+│   │   │   └── [ 870 Apr 24 19:37]  task.py
+│   │   ├── [ 256 Apr 24 19:31]  agent_memory.py
+│   │   └── [4.0K Apr 27 19:38]  system
+│   │       ├── [3.4K Apr 27 19:38]  archivist.py
+│   │       ├── [1.0K Apr 27 12:32]  archivist.pyrt forge_memory_coreit__(self):f.name = "Archivist"th_nbreathn()        self.birth_m
+│   │       ├── [1.4K Apr 27 18:45]  commander.py
+│   │       ├── [2.3K Apr 27 18:30]  commander.py.save
+│   │       ├── [3.4K Apr 27 18:54]  guardian.py
+│   │       └── [4.0K Apr 27 04:19]  memory
+│   │           └── [4.0K Apr 27 04:19]  memory_cores
+│   │               └── [  86 Apr 27 04:19]  archivist_core.json
+│   ├── [4.0K Apr 24 15:54]  api
+│   │   ├── [   0 Apr 24 15:54]  __init__.py
+│   │   ├── [ 269 Apr 23 07:45]  app.py
+│   │   └── [4.0K Apr 24 15:54]  routes
+│   │       ├── [   0 Apr 24 15:54]  __init__.py
+│   │       └── [2.0K Apr 23 07:45]  task_api.py
+│   ├── [ 180 Apr 24 03:27]  app.py
+│   ├── [1.5K Apr 24 16:27]  command_api.py
+│   ├── [4.0K Apr 27 13:04]  core
+│   │   ├── [   0 Apr 26 00:31]  __init__.py
+│   │   ├── [ 851 Apr 27 13:04]  breath_core.py
+│   │   ├── [1.8K Apr 27 12:25]  memory_core.py
+│   │   ├── [4.0K Apr 24 19:24]  trace9
+│   │   │   └── [1.4K Apr 24 19:24]  trace9_core.py
+│   │   ├── [ 409 Apr 24 19:26]  trace9_loader.py
+│   │   └── [1.4K Apr 24 20:48]  trace_log.py
+│   ├── [4.0K Apr 24 18:56]  crawler
+│   │   └── [2.0K Apr 24 18:56]  fusion_crawler.py
+│   ├── [4.0K Apr 24 15:51]  db
+│   │   └── [ 419 Apr 24 03:46]  init_db.py
+│   ├── [4.0K Apr 27 09:16]  forks
+│   │   ├── [ 715 Apr 27 08:56]  ForkAlpha.py
+│   │   ├── [ 714 Apr 27 09:09]  ForkBeta.py
+│   │   ├── [ 735 Apr 27 09:13]  ForkGamma.py
+│   │   ├── [   0 Apr 26 00:31]  __init__.py
+│   │   ├── [4.3K Apr 26 00:14]  agent_alpha.py
+│   │   ├── [4.3K Apr 26 00:07]  agent_beta.py
+│   │   ├── [3.8K Apr 26 11:20]  agent_gamma.py
+│   │   ├── [ 778 Apr 25 16:40]  fork_commander.py
+│   │   ├── [ 346 Apr 27 07:09]  launch_fleet.py
+│   │   ├── [4.0K Apr 22 23:48]  ml_pipeline
+│   │   │   ├── [4.0K Apr 23 00:35]  data_clean
+│   │   │   │   └── [ 400 Apr 23 05:18]  core.py
+│   │   │   ├── [4.0K Apr 23 00:35]  data_ingest
+│   │   │   │   └── [ 244 Apr 23 05:18]  core.py
+│   │   │   ├── [4.0K Apr 23 00:35]  feature_prep
+│   │   │   │   └── [ 612 Apr 23 05:18]  core.py
+│   │   │   ├── [4.0K Apr 23 00:35]  model_registry
+│   │   │   │   └── [ 851 Apr 23 05:18]  core.py
+│   │   │   ├── [4.0K Apr 23 00:35]  predict
+│   │   │   │   └── [ 443 Apr 23 05:18]  core.py
+│   │   │   └── [4.0K Apr 23 00:35]  train_model
+│   │   │       └── [ 702 Apr 23 05:18]  core.py
+│   │   └── [4.0K Apr 22 23:51]  task_manager
+│   │       └── [1.7K Apr 23 05:23]  core.py
+│   ├── [4.0K Apr 24 21:51]  logs
+│   │   ├── [4.0K Apr 24 20:20]  trace
+│   │   └── [4.0K Apr 26 19:09]  traces
+│   │       ├── [ 329 Apr 25 10:48]  T9-2025-04-25T174807658459.json
+│   │       ├── [ 329 Apr 25 10:55]  T9-2025-04-25T175539263452.json
+│   │       ├── [ 291 Apr 25 10:55]  T9-2025-04-25T175539263771.json
+│   │       ├── [ 357 Apr 25 10:55]  T9-2025-04-25T175539263971.json
+│   │       ├── [ 329 Apr 25 10:59]  T9-2025-04-25T175923974326.json
+│   │       ├── [ 291 Apr 25 10:59]  T9-2025-04-25T175923974648.json
+│   │       ├── [ 357 Apr 25 10:59]  T9-2025-04-25T175923974697.json
+│   │       ├── [ 329 Apr 25 11:08]  T9-2025-04-25T180813572023.json
+│   │       ├── [ 291 Apr 25 11:08]  T9-2025-04-25T180813572431.json
+│   │       ├── [ 357 Apr 25 11:08]  T9-2025-04-25T180813572496.json
+│   │       ├── [ 329 Apr 25 11:13]  T9-2025-04-25T181354233848.json
+│   │       ├── [ 291 Apr 25 11:13]  T9-2025-04-25T181354234245.json
+│   │       ├── [ 357 Apr 25 11:13]  T9-2025-04-25T181354234363.json
+│   │       ├── [ 329 Apr 25 11:30]  T9-2025-04-25T183052811423.json
+│   │       ├── [ 291 Apr 25 11:30]  T9-2025-04-25T183052811975.json
+│   │       ├── [ 357 Apr 25 11:30]  T9-2025-04-25T183052812119.json
+│   │       ├── [ 329 Apr 25 11:42]  T9-2025-04-25T184221625685.json
+│   │       ├── [ 291 Apr 25 11:42]  T9-2025-04-25T184221626620.json
+│   │       ├── [ 357 Apr 25 11:42]  T9-2025-04-25T184221626780.json
+│   │       ├── [ 309 Apr 25 11:42]  T9-2025-04-25T184221627309.json
+│   │       ├── [ 300 Apr 25 11:42]  T9-2025-04-25T184221627530.json
+│   │       ├── [ 329 Apr 25 11:51]  T9-2025-04-25T185106554716.json
+│   │       ├── [ 291 Apr 25 11:51]  T9-2025-04-25T185106555221.json
+│   │       ├── [ 357 Apr 25 11:51]  T9-2025-04-25T185106555342.json
+│   │       ├── [ 309 Apr 25 11:51]  T9-2025-04-25T185106555504.json
+│   │       ├── [ 300 Apr 25 11:51]  T9-2025-04-25T185106555583.json
+│   │       ├── [ 329 Apr 25 11:54]  T9-2025-04-25T185446612115.json
+│   │       ├── [ 291 Apr 25 11:54]  T9-2025-04-25T185446612599.json
+│   │       ├── [ 357 Apr 25 11:54]  T9-2025-04-25T185446612737.json
+│   │       ├── [ 309 Apr 25 11:54]  T9-2025-04-25T185446612923.json
+│   │       ├── [ 300 Apr 25 11:54]  T9-2025-04-25T185446613041.json
+│   │       ├── [ 309 Apr 25 11:54]  T9-2025-04-25T185446613195.json
+│   │       ├── [ 329 Apr 25 16:23]  T9-2025-04-25T232338872558.json
+│   │       ├── [ 291 Apr 25 16:23]  T9-2025-04-25T232338873059.json
+│   │       ├── [ 357 Apr 25 16:23]  T9-2025-04-25T232338873123.json
+│   │       ├── [ 309 Apr 25 16:23]  T9-2025-04-25T232338873318.json
+│   │       ├── [ 300 Apr 25 16:23]  T9-2025-04-25T232338873428.json
+│   │       ├── [ 309 Apr 25 16:23]  T9-2025-04-25T232338873690.json
+│   │       ├── [ 329 Apr 25 16:50]  T9-2025-04-25T235025965322.json
+│   │       ├── [ 291 Apr 25 16:50]  T9-2025-04-25T235025966111.json
+│   │       ├── [ 357 Apr 25 16:50]  T9-2025-04-25T235025966307.json
+│   │       ├── [ 309 Apr 25 16:50]  T9-2025-04-25T235025966672.json
+│   │       ├── [ 300 Apr 25 16:50]  T9-2025-04-25T235025966892.json
+│   │       ├── [ 309 Apr 25 16:50]  T9-2025-04-25T235025967540.json
+│   │       ├── [ 315 Apr 25 16:50]  T9-2025-04-25T235025967707.json
+│   │       ├── [ 329 Apr 25 21:31]  T9-2025-04-26T043144915806.json
+│   │       ├── [ 291 Apr 25 21:31]  T9-2025-04-26T043144916352.json
+│   │       ├── [ 357 Apr 25 21:31]  T9-2025-04-26T043144916440.json
+│   │       ├── [ 309 Apr 25 21:31]  T9-2025-04-26T043144916663.json
+│   │       ├── [ 300 Apr 25 21:31]  T9-2025-04-26T043144916726.json
+│   │       ├── [ 309 Apr 25 21:31]  T9-2025-04-26T043144917048.json
+│   │       ├── [ 315 Apr 25 21:31]  T9-2025-04-26T043144917370.json
+│   │       ├── [ 329 Apr 25 22:00]  T9-2025-04-26T050046084288.json
+│   │       ├── [ 291 Apr 25 22:00]  T9-2025-04-26T050046088051.json
+│   │       ├── [ 357 Apr 25 22:00]  T9-2025-04-26T050046088120.json
+│   │       ├── [ 309 Apr 25 22:00]  T9-2025-04-26T050046088329.json
+│   │       ├── [ 300 Apr 25 22:00]  T9-2025-04-26T050046088393.json
+│   │       ├── [ 309 Apr 25 22:00]  T9-2025-04-26T050046088679.json
+│   │       ├── [ 315 Apr 25 22:00]  T9-2025-04-26T050046088723.json
+│   │       ├── [ 329 Apr 25 23:15]  T9-2025-04-26T061559453173.json
+│   │       ├── [ 291 Apr 25 23:15]  T9-2025-04-26T061559453735.json
+│   │       ├── [ 357 Apr 25 23:15]  T9-2025-04-26T061559453832.json
+│   │       ├── [ 309 Apr 25 23:15]  T9-2025-04-26T061559453965.json
+│   │       ├── [ 300 Apr 25 23:15]  T9-2025-04-26T061559454016.json
+│   │       ├── [ 309 Apr 25 23:15]  T9-2025-04-26T061559454636.json
+│   │       ├── [ 315 Apr 25 23:15]  T9-2025-04-26T061559454692.json
+│   │       ├── [ 329 Apr 26 00:24]  T9-2025-04-26T072403760268.json
+│   │       ├── [ 291 Apr 26 00:24]  T9-2025-04-26T072403760707.json
+│   │       ├── [ 357 Apr 26 00:24]  T9-2025-04-26T072403760768.json
+│   │       ├── [ 309 Apr 26 00:24]  T9-2025-04-26T072403760910.json
+│   │       ├── [ 300 Apr 26 00:24]  T9-2025-04-26T072403760968.json
+│   │       ├── [ 309 Apr 26 00:24]  T9-2025-04-26T072403761537.json
+│   │       ├── [ 315 Apr 26 00:24]  T9-2025-04-26T072403761603.json
+│   │       ├── [ 329 Apr 26 19:09]  T9-2025-04-27T020910589421.json
+│   │       ├── [ 291 Apr 26 19:09]  T9-2025-04-27T020910597259.json
+│   │       ├── [ 357 Apr 26 19:09]  T9-2025-04-27T020910597807.json
+│   │       ├── [ 309 Apr 26 19:09]  T9-2025-04-27T020910599242.json
+│   │       ├── [ 300 Apr 26 19:09]  T9-2025-04-27T020910599541.json
+│   │       ├── [ 309 Apr 26 19:09]  T9-2025-04-27T020910604629.json
+│   │       └── [ 315 Apr 26 19:09]  T9-2025-04-27T020910604927.json
+│   ├── [4.0K Apr 27 02:04]  memory
+│   │   ├── [1.8K Apr 26 19:09]  agent_alpha.json
+│   │   ├── [ 758 Apr 26 19:09]  agent_beta.json
+│   │   ├── [   3 Apr 27 14:58]  command_log.json
+│   │   ├── [4.0K Apr 24 18:31]  crawler_parsed
+│   │   ├── [   0 Apr 24 22:31]  guardian_watch.json
+│   │   ├── [4.0K Apr 24 21:55]  loaders
+│   │   │   └── [ 690 Apr 24 21:54]  fork_loader.py
+│   │   ├── [4.0K Apr 27 04:32]  memory_cores
+│   │   │   ├── [ 161 Apr 26 19:09]  agent_alpha_core.json
+│   │   │   ├── [   0 Apr 27 02:04]  agent_gamma_core.json
+│   │   │   └── [   2 Apr 27 04:32]  commander_core.json
+│   │   ├── [  17 Apr 25 19:05]  trace9_agent_alpha.json
+│   │   ├── [  22 Apr 25 19:09]  trace9_agent_beta.json
+│   │   └── [   0 Apr 27 02:04]  trace9_agent_gamma.json
+│   ├── [1.2K Apr 25 11:54]  metafork_loader.py
+│   ├── [ 663 Apr 25 11:05]  metafork_loader.py│  
+│   ├── [4.0K Apr 24 15:54]  models
+│   │   └── [   0 Apr 24 15:54]  __init__.py
+│   ├── [ 527 Apr 23 15:19]  note_memory_patch.py
+│   ├── [ 12K Apr 24 03:51]  omnipath.db
+│   ├── [168K Apr 26 20:16]  omnipath_system_snapshot.txt
+│   ├── [ 83K Apr 26 00:46]  output_links.txt
+│   ├── [4.0K Apr 24 15:54]  routes
+│   │   ├── [   0 Apr 24 15:54]  __init__.py
+│   │   └── [1.0K Apr 24 02:18]  agents.py
+│   ├── [ 257 Apr 23 15:28]  status_api.py
+│   ├── [ 536 Apr 23 15:19]  task_memory_patch.py
+│   ├── [ 331 Apr 24 20:07]  test_agent_core.py
+│   ├── [4.0K Apr 25 15:59]  tools
+│   │   └── [ 838 Apr 25 15:59]  memory_replay.py
+│   ├── [4.0K Apr 25 18:58]  trace9
+│   │   └── [1.5K Apr 25 18:58]  trace9_core.py
+│   └── [4.0K Apr 25 10:47]  utils
+│       ├── [ 508 Apr 25 10:47]  helpers.py
+│       └── [ 282 Apr 24 20:13]  timeutils.py
+├── [1.5K Apr 27 03:27]  command_notes.txt
+├── [ 318 Apr 23 09:08]  forkalpha_memory.json
+├── [ 120 Apr 23 08:53]  forkbeta_memory.json
+├── [4.0K Apr 24 15:44]  frontend
+│   ├── [ 310 Apr 23 10:46]  .gitignore
+│   ├── [3.3K Apr 23 10:46]  README.md
+│   ├── [647K Apr 23 10:47]  package-lock.json
+│   ├── [ 849 Apr 23 10:47]  package.json
+│   ├── [4.0K Apr 23 10:46]  public
+│   │   ├── [3.8K Apr 23 10:46]  favicon.ico
+│   │   ├── [1.7K Apr 23 10:46]  index.html
+│   │   ├── [5.2K Apr 23 10:46]  logo192.png
+│   │   ├── [9.4K Apr 23 10:46]  logo512.png
+│   │   ├── [ 492 Apr 23 10:46]  manifest.json
+│   │   └── [  67 Apr 23 10:46]  robots.txt
+│   ├── [4.0K Apr 23 13:30]  scr
+│   │   └── [4.0K Apr 23 13:30]  componets
+│   ├── [4.0K Apr 24 15:44]  src
+│   │   ├── [ 564 Apr 23 10:46]  App.css
+│   │   ├── [1.1K Apr 24 02:09]  App.js
+│   │   ├── [ 246 Apr 23 10:46]  App.test.js
+│   │   ├── [2.3K Apr 23 13:07]  OmnipathUI.jsx
+│   │   ├── [4.0K Apr 24 15:44]  assets
+│   │   ├── [4.0K Apr 24 01:57]  components
+│   │   │   ├── [1.3K Apr 24 01:57]  AgentPanel.jsx
+│   │   │   ├── [1.1K Apr 23 16:57]  InputCommand.jsx
+│   │   │   ├── [ 932 Apr 23 14:24]  SVGTerminalOverlay.jsx
+│   │   │   ├── [ 831 Apr 23 14:20]  TaskRouter.jsx
+│   │   │   └── [4.0K Apr 23 14:43]  conponents
+│   │   │       └── [1.1K Apr 23 14:16]  TaskRouter.jsx
+│   │   ├── [ 366 Apr 23 10:46]  index.css
+│   │   ├── [ 535 Apr 23 10:46]  index.js
+│   │   ├── [2.6K Apr 23 10:46]  logo.svg
+│   │   ├── [ 362 Apr 23 10:46]  reportWebVitals.js
+│   │   └── [ 241 Apr 23 10:46]  setupTests.js
+│   └── [4.0K Apr 24 15:44]  styles
+├── [4.0K Apr 24 15:44]  intel
+│   ├── [4.0K Apr 24 18:10]  crawlers
+│   │   └── [1.4K Apr 24 18:10]  rotating_crawler.py
+│   └── [4.0K Apr 24 15:44]  outputs
+├── [4.0K Apr 24 15:44]  logs
+├── [4.0K Apr 25 10:59]  memory
+│   ├── [   2 Apr 25 10:59]  command_log.json
+│   └── [2.2K Apr 26 19:09]  guardian_watch.json
+├── [   0 Apr 27 21:08]  omnipath_system_snapshot.txt
+├── [4.0K Apr 22 16:28]  projects
+│   └── [4.0K Apr 22 16:50]  myapp
+│       ├── [  20 Apr 22 16:50]  main.py
+│       └── [4.0K Apr 22 16:30]  venv
+│           ├── [4.0K Apr 23 01:09]  bin
+│           │   ├── [8.8K Apr 22 16:30]  Activate.ps1
+│           │   ├── [2.0K Apr 22 16:30]  activate
+│           │   ├── [ 936 Apr 22 16:30]  activate.csh
+│           │   ├── [2.2K Apr 22 16:30]  activate.fish
+│           │   ├── [ 244 Apr 23 01:09]  flask
+│           │   ├── [ 257 Apr 22 16:31]  pip
+│           │   ├── [ 257 Apr 22 16:31]  pip3
+│           │   ├── [ 257 Apr 22 16:31]  pip3.12
+│           │   ├── [   7 Apr 22 16:30]  python -> python3
+│           │   ├── [  16 Apr 22 16:30]  python3 -> /usr/bin/python3
+│           │   └── [   7 Apr 22 16:30]  python3.12 -> python3
+│           ├── [4.0K Apr 22 16:30]  include
+│           │   └── [4.0K Apr 22 16:30]  python3.12
+│           ├── [4.0K Apr 22 16:30]  lib
+│           │   └── [4.0K Apr 22 16:30]  python3.12
+│           │       └── [4.0K Apr 23 01:09]  site-packages
+│           │           ├── [4.0K Apr 23 01:09]  MarkupSafe-3.0.2.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [1.4K Apr 23 01:09]  LICENSE.txt
+│           │           │   ├── [3.9K Apr 23 01:09]  METADATA
+│           │           │   ├── [1.1K Apr 23 01:09]  RECORD
+│           │           │   ├── [ 151 Apr 23 01:09]  WHEEL
+│           │           │   └── [  11 Apr 23 01:09]  top_level.txt
+│           │           ├── [4.0K Apr 23 01:09]  blinker
+│           │           │   ├── [ 317 Apr 23 01:09]  __init__.py
+│           │           │   ├── [1.6K Apr 23 01:09]  _utilities.py
+│           │           │   ├── [ 19K Apr 23 01:09]  base.py
+│           │           │   └── [   0 Apr 23 01:09]  py.typed
+│           │           ├── [4.0K Apr 23 01:09]  blinker-1.9.0.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [1.0K Apr 23 01:09]  LICENSE.txt
+│           │           │   ├── [1.6K Apr 23 01:09]  METADATA
+│           │           │   ├── [ 832 Apr 23 01:09]  RECORD
+│           │           │   └── [  82 Apr 23 01:09]  WHEEL
+│           │           ├── [4.0K Apr 23 01:09]  click
+│           │           │   ├── [3.1K Apr 23 01:09]  __init__.py
+│           │           │   ├── [ 18K Apr 23 01:09]  _compat.py
+│           │           │   ├── [ 24K Apr 23 01:09]  _termui_impl.py
+│           │           │   ├── [1.3K Apr 23 01:09]  _textwrap.py
+│           │           │   ├── [7.7K Apr 23 01:09]  _winconsole.py
+│           │           │   ├── [112K Apr 23 01:09]  core.py
+│           │           │   ├── [ 18K Apr 23 01:09]  decorators.py
+│           │           │   ├── [9.4K Apr 23 01:09]  exceptions.py
+│           │           │   ├── [9.5K Apr 23 01:09]  formatting.py
+│           │           │   ├── [1.9K Apr 23 01:09]  globals.py
+│           │           │   ├── [ 19K Apr 23 01:09]  parser.py
+│           │           │   ├── [   0 Apr 23 01:09]  py.typed
+│           │           │   ├── [ 18K Apr 23 01:09]  shell_completion.py
+│           │           │   ├── [ 28K Apr 23 01:09]  termui.py
+│           │           │   ├── [ 16K Apr 23 01:09]  testing.py
+│           │           │   ├── [ 36K Apr 23 01:09]  types.py
+│           │           │   └── [ 20K Apr 23 01:09]  utils.py
+│           │           ├── [4.0K Apr 23 01:09]  click-8.1.8.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [1.4K Apr 23 01:09]  LICENSE.txt
+│           │           │   ├── [2.2K Apr 23 01:09]  METADATA
+│           │           │   ├── [2.3K Apr 23 01:09]  RECORD
+│           │           │   └── [  82 Apr 23 01:09]  WHEEL
+│           │           ├── [4.0K Apr 23 01:09]  flask
+│           │           │   ├── [2.6K Apr 23 01:09]  __init__.py
+│           │           │   ├── [  30 Apr 23 01:09]  __main__.py
+│           │           │   ├── [ 60K Apr 23 01:09]  app.py
+│           │           │   ├── [4.4K Apr 23 01:09]  blueprints.py
+│           │           │   ├── [ 36K Apr 23 01:09]  cli.py
+│           │           │   ├── [ 13K Apr 23 01:09]  config.py
+│           │           │   ├── [ 15K Apr 23 01:09]  ctx.py
+│           │           │   ├── [5.9K Apr 23 01:09]  debughelpers.py
+│           │           │   ├── [1.7K Apr 23 01:09]  globals.py
+│           │           │   ├── [ 23K Apr 23 01:09]  helpers.py
+│           │           │   ├── [4.0K Apr 23 01:09]  json
+│           │           │   │   ├── [5.5K Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [7.5K Apr 23 01:09]  provider.py
+│           │           │   │   └── [9.1K Apr 23 01:09]  tag.py
+│           │           │   ├── [2.3K Apr 23 01:09]  logging.py
+│           │           │   ├── [   0 Apr 23 01:09]  py.typed
+│           │           │   ├── [4.0K Apr 23 01:09]  sansio
+│           │           │   │   ├── [ 228 Apr 23 01:09]  README.md
+│           │           │   │   ├── [ 37K Apr 23 01:09]  app.py
+│           │           │   │   ├── [ 24K Apr 23 01:09]  blueprints.py
+│           │           │   │   └── [ 30K Apr 23 01:09]  scaffold.py
+│           │           │   ├── [ 15K Apr 23 01:09]  sessions.py
+│           │           │   ├── [ 750 Apr 23 01:09]  signals.py
+│           │           │   ├── [7.4K Apr 23 01:09]  templating.py
+│           │           │   ├── [9.9K Apr 23 01:09]  testing.py
+│           │           │   ├── [3.1K Apr 23 01:09]  typing.py
+│           │           │   ├── [6.8K Apr 23 01:09]  views.py
+│           │           │   └── [9.2K Apr 23 01:09]  wrappers.py
+│           │           ├── [4.0K Apr 23 01:09]  flask-3.1.0.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [1.4K Apr 23 01:09]  LICENSE.txt
+│           │           │   ├── [2.7K Apr 23 01:09]  METADATA
+│           │           │   ├── [3.5K Apr 23 01:09]  RECORD
+│           │           │   ├── [  82 Apr 23 01:09]  WHEEL
+│           │           │   └── [  40 Apr 23 01:09]  entry_points.txt
+│           │           ├── [4.0K Apr 23 01:09]  flask_cors
+│           │           │   ├── [ 522 Apr 23 01:09]  __init__.py
+│           │           │   ├── [ 13K Apr 23 01:09]  core.py
+│           │           │   ├── [4.6K Apr 23 01:09]  decorator.py
+│           │           │   ├── [8.0K Apr 23 01:09]  extension.py
+│           │           │   └── [  22 Apr 23 01:09]  version.py
+│           │           ├── [4.0K Apr 23 01:09]  flask_cors-5.0.1.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [ 961 Apr 23 01:09]  METADATA
+│           │           │   ├── [1.1K Apr 23 01:09]  RECORD
+│           │           │   ├── [   0 Apr 23 01:09]  REQUESTED
+│           │           │   ├── [  91 Apr 23 01:09]  WHEEL
+│           │           │   └── [  11 Apr 23 01:09]  top_level.txt
+│           │           ├── [4.0K Apr 23 01:09]  itsdangerous
+│           │           │   ├── [1.4K Apr 23 01:09]  __init__.py
+│           │           │   ├── [ 473 Apr 23 01:09]  _json.py
+│           │           │   ├── [1.4K Apr 23 01:09]  encoding.py
+│           │           │   ├── [3.1K Apr 23 01:09]  exc.py
+│           │           │   ├── [   0 Apr 23 01:09]  py.typed
+│           │           │   ├── [ 15K Apr 23 01:09]  serializer.py
+│           │           │   ├── [9.4K Apr 23 01:09]  signer.py
+│           │           │   ├── [7.9K Apr 23 01:09]  timed.py
+│           │           │   └── [2.4K Apr 23 01:09]  url_safe.py
+│           │           ├── [4.0K Apr 23 01:09]  itsdangerous-2.2.0.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [1.4K Apr 23 01:09]  LICENSE.txt
+│           │           │   ├── [1.9K Apr 23 01:09]  METADATA
+│           │           │   ├── [1.5K Apr 23 01:09]  RECORD
+│           │           │   └── [  81 Apr 23 01:09]  WHEEL
+│           │           ├── [4.0K Apr 23 01:09]  jinja2
+│           │           │   ├── [1.9K Apr 23 01:09]  __init__.py
+│           │           │   ├── [1.9K Apr 23 01:09]  _identifier.py
+│           │           │   ├── [2.8K Apr 23 01:09]  async_utils.py
+│           │           │   ├── [ 14K Apr 23 01:09]  bccache.py
+│           │           │   ├── [ 72K Apr 23 01:09]  compiler.py
+│           │           │   ├── [1.4K Apr 23 01:09]  constants.py
+│           │           │   ├── [6.1K Apr 23 01:09]  debug.py
+│           │           │   ├── [1.2K Apr 23 01:09]  defaults.py
+│           │           │   ├── [ 60K Apr 23 01:09]  environment.py
+│           │           │   ├── [5.0K Apr 23 01:09]  exceptions.py
+│           │           │   ├── [ 31K Apr 23 01:09]  ext.py
+│           │           │   ├── [ 54K Apr 23 01:09]  filters.py
+│           │           │   ├── [ 10K Apr 23 01:09]  idtracking.py
+│           │           │   ├── [ 29K Apr 23 01:09]  lexer.py
+│           │           │   ├── [ 23K Apr 23 01:09]  loaders.py
+│           │           │   ├── [4.3K Apr 23 01:09]  meta.py
+│           │           │   ├── [4.1K Apr 23 01:09]  nativetypes.py
+│           │           │   ├── [ 34K Apr 23 01:09]  nodes.py
+│           │           │   ├── [1.6K Apr 23 01:09]  optimizer.py
+│           │           │   ├── [ 39K Apr 23 01:09]  parser.py
+│           │           │   ├── [   0 Apr 23 01:09]  py.typed
+│           │           │   ├── [ 33K Apr 23 01:09]  runtime.py
+│           │           │   ├── [ 15K Apr 23 01:09]  sandbox.py
+│           │           │   ├── [5.8K Apr 23 01:09]  tests.py
+│           │           │   ├── [ 24K Apr 23 01:09]  utils.py
+│           │           │   └── [3.5K Apr 23 01:09]  visitor.py
+│           │           ├── [4.0K Apr 23 01:09]  jinja2-3.1.6.dist-info
+│           │           │   ├── [   4 Apr 23 01:09]  INSTALLER
+│           │           │   ├── [2.8K Apr 23 01:09]  METADATA
+│           │           │   ├── [3.5K Apr 23 01:09]  RECORD
+│           │           │   ├── [  82 Apr 23 01:09]  WHEEL
+│           │           │   ├── [  58 Apr 23 01:09]  entry_points.txt
+│           │           │   └── [4.0K Apr 23 01:09]  licenses
+│           │           │       └── [1.4K Apr 23 01:09]  LICENSE.txt
+│           │           ├── [4.0K Apr 23 01:09]  markupsafe
+│           │           │   ├── [ 13K Apr 23 01:09]  __init__.py
+│           │           │   ├── [ 210 Apr 23 01:09]  _native.py
+│           │           │   ├── [4.1K Apr 23 01:09]  _speedups.c
+│           │           │   ├── [ 42K Apr 23 01:09]  _speedups.cpython-312-x86_64-linux-gnu.so
+│           │           │   ├── [  41 Apr 23 01:09]  _speedups.pyi
+│           │           │   └── [   0 Apr 23 01:09]  py.typed
+│           │           ├── [4.0K Apr 22 16:31]  pip
+│           │           │   ├── [ 357 Apr 22 16:31]  __init__.py
+│           │           │   ├── [ 854 Apr 22 16:31]  __main__.py
+│           │           │   ├── [1.4K Apr 22 16:31]  __pip-runner__.py
+│           │           │   ├── [4.0K Apr 22 16:31]  _internal
+│           │           │   │   ├── [ 513 Apr 22 16:31]  __init__.py
+│           │           │   │   ├── [ 10K Apr 22 16:31]  build_env.py
+│           │           │   │   ├── [ 10K Apr 22 16:31]  cache.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  cli
+│           │           │   │   │   ├── [ 132 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [6.7K Apr 22 16:31]  autocompletion.py
+│           │           │   │   │   ├── [8.4K Apr 22 16:31]  base_command.py
+│           │           │   │   │   ├── [ 29K Apr 22 16:31]  cmdoptions.py
+│           │           │   │   │   ├── [ 774 Apr 22 16:31]  command_context.py
+│           │           │   │   │   ├── [5.5K Apr 22 16:31]  index_command.py
+│           │           │   │   │   ├── [2.8K Apr 22 16:31]  main.py
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  main_parser.py
+│           │           │   │   │   ├── [ 11K Apr 22 16:31]  parser.py
+│           │           │   │   │   ├── [2.7K Apr 22 16:31]  progress_bars.py
+│           │           │   │   │   ├── [ 12K Apr 22 16:31]  req_command.py
+│           │           │   │   │   ├── [5.0K Apr 22 16:31]  spinners.py
+│           │           │   │   │   └── [ 116 Apr 22 16:31]  status_codes.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  commands
+│           │           │   │   │   ├── [3.8K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [7.9K Apr 22 16:31]  cache.py
+│           │           │   │   │   ├── [2.2K Apr 22 16:31]  check.py
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  completion.py
+│           │           │   │   │   ├── [9.5K Apr 22 16:31]  configuration.py
+│           │           │   │   │   ├── [6.6K Apr 22 16:31]  debug.py
+│           │           │   │   │   ├── [5.1K Apr 22 16:31]  download.py
+│           │           │   │   │   ├── [3.1K Apr 22 16:31]  freeze.py
+│           │           │   │   │   ├── [1.7K Apr 22 16:31]  hash.py
+│           │           │   │   │   ├── [1.1K Apr 22 16:31]  help.py
+│           │           │   │   │   ├── [4.6K Apr 22 16:31]  index.py
+│           │           │   │   │   ├── [3.1K Apr 22 16:31]  inspect.py
+│           │           │   │   │   ├── [ 29K Apr 22 16:31]  install.py
+│           │           │   │   │   ├── [ 12K Apr 22 16:31]  list.py
+│           │           │   │   │   ├── [5.5K Apr 22 16:31]  search.py
+│           │           │   │   │   ├── [7.7K Apr 22 16:31]  show.py
+│           │           │   │   │   ├── [3.8K Apr 22 16:31]  uninstall.py
+│           │           │   │   │   └── [6.3K Apr 22 16:31]  wheel.py
+│           │           │   │   ├── [ 14K Apr 22 16:31]  configuration.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  distributions
+│           │           │   │   │   ├── [ 858 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [1.7K Apr 22 16:31]  base.py
+│           │           │   │   │   ├── [ 842 Apr 22 16:31]  installed.py
+│           │           │   │   │   ├── [6.6K Apr 22 16:31]  sdist.py
+│           │           │   │   │   └── [1.3K Apr 22 16:31]  wheel.py
+│           │           │   │   ├── [ 26K Apr 22 16:31]  exceptions.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  index
+│           │           │   │   │   ├── [  30 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 16K Apr 22 16:31]  collector.py
+│           │           │   │   │   ├── [ 37K Apr 22 16:31]  package_finder.py
+│           │           │   │   │   └── [8.4K Apr 22 16:31]  sources.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  locations
+│           │           │   │   │   ├── [ 15K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [5.9K Apr 22 16:31]  _distutils.py
+│           │           │   │   │   ├── [7.5K Apr 22 16:31]  _sysconfig.py
+│           │           │   │   │   └── [2.5K Apr 22 16:31]  base.py
+│           │           │   │   ├── [ 340 Apr 22 16:31]  main.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  metadata
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [2.6K Apr 22 16:31]  _json.py
+│           │           │   │   │   ├── [ 25K Apr 22 16:31]  base.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  importlib
+│           │           │   │   │   │   ├── [ 135 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [2.7K Apr 22 16:31]  _compat.py
+│           │           │   │   │   │   ├── [8.1K Apr 22 16:31]  _dists.py
+│           │           │   │   │   │   └── [7.3K Apr 22 16:31]  _envs.py
+│           │           │   │   │   └── [ 10K Apr 22 16:31]  pkg_resources.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  models
+│           │           │   │   │   ├── [  63 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 753 Apr 22 16:31]  candidate.py
+│           │           │   │   │   ├── [6.4K Apr 22 16:31]  direct_url.py
+│           │           │   │   │   ├── [2.4K Apr 22 16:31]  format_control.py
+│           │           │   │   │   ├── [1.0K Apr 22 16:31]  index.py
+│           │           │   │   │   ├── [2.8K Apr 22 16:31]  installation_report.py
+│           │           │   │   │   ├── [ 21K Apr 22 16:31]  link.py
+│           │           │   │   │   ├── [ 575 Apr 22 16:31]  scheme.py
+│           │           │   │   │   ├── [4.4K Apr 22 16:31]  search_scope.py
+│           │           │   │   │   ├── [2.0K Apr 22 16:31]  selection_prefs.py
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  target_python.py
+│           │           │   │   │   └── [4.4K Apr 22 16:31]  wheel.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  network
+│           │           │   │   │   ├── [  50 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  auth.py
+│           │           │   │   │   ├── [4.5K Apr 22 16:31]  cache.py
+│           │           │   │   │   ├── [5.9K Apr 22 16:31]  download.py
+│           │           │   │   │   ├── [7.4K Apr 22 16:31]  lazy_wheel.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  session.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  utils.py
+│           │           │   │   │   └── [1.8K Apr 22 16:31]  xmlrpc.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  operations
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  build
+│           │           │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [4.7K Apr 22 16:31]  build_tracker.py
+│           │           │   │   │   │   ├── [1.4K Apr 22 16:31]  metadata.py
+│           │           │   │   │   │   ├── [1.5K Apr 22 16:31]  metadata_editable.py
+│           │           │   │   │   │   ├── [2.1K Apr 22 16:31]  metadata_legacy.py
+│           │           │   │   │   │   ├── [1.0K Apr 22 16:31]  wheel.py
+│           │           │   │   │   │   ├── [1.4K Apr 22 16:31]  wheel_editable.py
+│           │           │   │   │   │   └── [3.0K Apr 22 16:31]  wheel_legacy.py
+│           │           │   │   │   ├── [5.8K Apr 22 16:31]  check.py
+│           │           │   │   │   ├── [9.6K Apr 22 16:31]  freeze.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  install
+│           │           │   │   │   │   ├── [  51 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [1.3K Apr 22 16:31]  editable_legacy.py
+│           │           │   │   │   │   └── [ 27K Apr 22 16:31]  wheel.py
+│           │           │   │   │   └── [ 27K Apr 22 16:31]  prepare.py
+│           │           │   │   ├── [7.1K Apr 22 16:31]  pyproject.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  req
+│           │           │   │   │   ├── [2.6K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  constructors.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  req_file.py
+│           │           │   │   │   ├── [ 35K Apr 22 16:31]  req_install.py
+│           │           │   │   │   ├── [2.8K Apr 22 16:31]  req_set.py
+│           │           │   │   │   └── [ 23K Apr 22 16:31]  req_uninstall.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  resolution
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 583 Apr 22 16:31]  base.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  legacy
+│           │           │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   └── [ 24K Apr 22 16:31]  resolver.py
+│           │           │   │   │   └── [4.0K Apr 22 16:31]  resolvelib
+│           │           │   │   │       ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │       ├── [4.9K Apr 22 16:31]  base.py
+│           │           │   │   │       ├── [ 20K Apr 22 16:31]  candidates.py
+│           │           │   │   │       ├── [ 32K Apr 22 16:31]  factory.py
+│           │           │   │   │       ├── [6.2K Apr 22 16:31]  found_candidates.py
+│           │           │   │   │       ├── [9.7K Apr 22 16:31]  provider.py
+│           │           │   │   │       ├── [3.1K Apr 22 16:31]  reporter.py
+│           │           │   │   │       ├── [7.9K Apr 22 16:31]  requirements.py
+│           │           │   │   │       └── [ 12K Apr 22 16:31]  resolver.py
+│           │           │   │   ├── [8.1K Apr 22 16:31]  self_outdated_check.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  utils
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [3.3K Apr 22 16:31]  _jaraco_text.py
+│           │           │   │   │   ├── [1015 Apr 22 16:31]  _log.py
+│           │           │   │   │   ├── [1.6K Apr 22 16:31]  appdirs.py
+│           │           │   │   │   ├── [2.3K Apr 22 16:31]  compat.py
+│           │           │   │   │   ├── [6.1K Apr 22 16:31]  compatibility_tags.py
+│           │           │   │   │   ├── [ 242 Apr 22 16:31]  datetime.py
+│           │           │   │   │   ├── [3.6K Apr 22 16:31]  deprecation.py
+│           │           │   │   │   ├── [3.1K Apr 22 16:31]  direct_url_helpers.py
+│           │           │   │   │   ├── [2.4K Apr 22 16:31]  egg_link.py
+│           │           │   │   │   ├── [3.0K Apr 22 16:31]  entrypoints.py
+│           │           │   │   │   ├── [4.8K Apr 22 16:31]  filesystem.py
+│           │           │   │   │   ├── [ 716 Apr 22 16:31]  filetypes.py
+│           │           │   │   │   ├── [3.6K Apr 22 16:31]  glibc.py
+│           │           │   │   │   ├── [4.9K Apr 22 16:31]  hashes.py
+│           │           │   │   │   ├── [ 12K Apr 22 16:31]  logging.py
+│           │           │   │   │   ├── [ 23K Apr 22 16:31]  misc.py
+│           │           │   │   │   ├── [2.1K Apr 22 16:31]  packaging.py
+│           │           │   │   │   ├── [1.4K Apr 22 16:31]  retry.py
+│           │           │   │   │   ├── [4.3K Apr 22 16:31]  setuptools_build.py
+│           │           │   │   │   ├── [8.8K Apr 22 16:31]  subprocess.py
+│           │           │   │   │   ├── [9.1K Apr 22 16:31]  temp_dir.py
+│           │           │   │   │   ├── [ 12K Apr 22 16:31]  unpacking.py
+│           │           │   │   │   ├── [1.6K Apr 22 16:31]  urls.py
+│           │           │   │   │   ├── [3.4K Apr 22 16:31]  virtualenv.py
+│           │           │   │   │   └── [4.4K Apr 22 16:31]  wheel.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  vcs
+│           │           │   │   │   ├── [ 596 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [3.4K Apr 22 16:31]  bazaar.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  git.py
+│           │           │   │   │   ├── [5.1K Apr 22 16:31]  mercurial.py
+│           │           │   │   │   ├── [ 11K Apr 22 16:31]  subversion.py
+│           │           │   │   │   └── [ 22K Apr 22 16:31]  versioncontrol.py
+│           │           │   │   └── [ 12K Apr 22 16:31]  wheel_builder.py
+│           │           │   ├── [4.0K Apr 22 16:31]  _vendor
+│           │           │   │   ├── [4.8K Apr 22 16:31]  __init__.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  cachecontrol
+│           │           │   │   │   ├── [ 677 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [1.7K Apr 22 16:31]  _cmd.py
+│           │           │   │   │   ├── [6.2K Apr 22 16:31]  adapter.py
+│           │           │   │   │   ├── [1.9K Apr 22 16:31]  cache.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  caches
+│           │           │   │   │   │   ├── [ 303 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [5.3K Apr 22 16:31]  file_cache.py
+│           │           │   │   │   │   └── [1.4K Apr 22 16:31]  redis_cache.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  controller.py
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  filewrapper.py
+│           │           │   │   │   ├── [4.8K Apr 22 16:31]  heuristics.py
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   │   ├── [5.0K Apr 22 16:31]  serialize.py
+│           │           │   │   │   └── [1.4K Apr 22 16:31]  wrapper.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  certifi
+│           │           │   │   │   ├── [  94 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 255 Apr 22 16:31]  __main__.py
+│           │           │   │   │   ├── [292K Apr 22 16:31]  cacert.pem
+│           │           │   │   │   ├── [4.4K Apr 22 16:31]  core.py
+│           │           │   │   │   └── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   ├── [4.0K Apr 22 16:31]  distlib
+│           │           │   │   │   ├── [ 625 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 40K Apr 22 16:31]  compat.py
+│           │           │   │   │   ├── [ 50K Apr 22 16:31]  database.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  index.py
+│           │           │   │   │   ├── [ 50K Apr 22 16:31]  locators.py
+│           │           │   │   │   ├── [ 14K Apr 22 16:31]  manifest.py
+│           │           │   │   │   ├── [5.0K Apr 22 16:31]  markers.py
+│           │           │   │   │   ├── [ 38K Apr 22 16:31]  metadata.py
+│           │           │   │   │   ├── [ 11K Apr 22 16:31]  resources.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  scripts.py
+│           │           │   │   │   ├── [ 96K Apr 22 16:31]  t32.exe
+│           │           │   │   │   ├── [178K Apr 22 16:31]  t64-arm.exe
+│           │           │   │   │   ├── [106K Apr 22 16:31]  t64.exe
+│           │           │   │   │   ├── [ 65K Apr 22 16:31]  util.py
+│           │           │   │   │   ├── [ 23K Apr 22 16:31]  version.py
+│           │           │   │   │   ├── [ 90K Apr 22 16:31]  w32.exe
+│           │           │   │   │   ├── [164K Apr 22 16:31]  w64-arm.exe
+│           │           │   │   │   ├── [100K Apr 22 16:31]  w64.exe
+│           │           │   │   │   └── [ 43K Apr 22 16:31]  wheel.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  distro
+│           │           │   │   │   ├── [ 981 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [  64 Apr 22 16:31]  __main__.py
+│           │           │   │   │   ├── [ 48K Apr 22 16:31]  distro.py
+│           │           │   │   │   └── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   ├── [4.0K Apr 22 16:31]  idna
+│           │           │   │   │   ├── [ 868 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [3.3K Apr 22 16:31]  codec.py
+│           │           │   │   │   ├── [ 316 Apr 22 16:31]  compat.py
+│           │           │   │   │   ├── [ 13K Apr 22 16:31]  core.py
+│           │           │   │   │   ├── [ 76K Apr 22 16:31]  idnadata.py
+│           │           │   │   │   ├── [1.9K Apr 22 16:31]  intranges.py
+│           │           │   │   │   ├── [  21 Apr 22 16:31]  package_data.py
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   │   └── [234K Apr 22 16:31]  uts46data.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  msgpack
+│           │           │   │   │   ├── [1.1K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [1.1K Apr 22 16:31]  exceptions.py
+│           │           │   │   │   ├── [5.6K Apr 22 16:31]  ext.py
+│           │           │   │   │   └── [ 32K Apr 22 16:31]  fallback.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  packaging
+│           │           │   │   │   ├── [ 494 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [3.2K Apr 22 16:31]  _elffile.py
+│           │           │   │   │   ├── [9.4K Apr 22 16:31]  _manylinux.py
+│           │           │   │   │   ├── [2.6K Apr 22 16:31]  _musllinux.py
+│           │           │   │   │   ├── [10.0K Apr 22 16:31]  _parser.py
+│           │           │   │   │   ├── [1.4K Apr 22 16:31]  _structures.py
+│           │           │   │   │   ├── [5.1K Apr 22 16:31]  _tokenizer.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  licenses
+│           │           │   │   │   │   ├── [5.6K Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   └── [ 47K Apr 22 16:31]  _spdx.py
+│           │           │   │   │   ├── [ 10K Apr 22 16:31]  markers.py
+│           │           │   │   │   ├── [ 34K Apr 22 16:31]  metadata.py
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   │   ├── [2.9K Apr 22 16:31]  requirements.py
+│           │           │   │   │   ├── [ 39K Apr 22 16:31]  specifiers.py
+│           │           │   │   │   ├── [ 21K Apr 22 16:31]  tags.py
+│           │           │   │   │   ├── [4.9K Apr 22 16:31]  utils.py
+│           │           │   │   │   └── [ 16K Apr 22 16:31]  version.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  pkg_resources
+│           │           │   │   │   └── [122K Apr 22 16:31]  __init__.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  platformdirs
+│           │           │   │   │   ├── [ 22K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [1.5K Apr 22 16:31]  __main__.py
+│           │           │   │   │   ├── [8.8K Apr 22 16:31]  android.py
+│           │           │   │   │   ├── [9.0K Apr 22 16:31]  api.py
+│           │           │   │   │   ├── [6.0K Apr 22 16:31]  macos.py
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   │   ├── [ 10K Apr 22 16:31]  unix.py
+│           │           │   │   │   ├── [ 411 Apr 22 16:31]  version.py
+│           │           │   │   │   └── [9.9K Apr 22 16:31]  windows.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  pygments
+│           │           │   │   │   ├── [2.9K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 353 Apr 22 16:31]  __main__.py
+│           │           │   │   │   ├── [ 23K Apr 22 16:31]  cmdline.py
+│           │           │   │   │   ├── [1.7K Apr 22 16:31]  console.py
+│           │           │   │   │   ├── [1.9K Apr 22 16:31]  filter.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  filters
+│           │           │   │   │   │   └── [ 39K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [4.3K Apr 22 16:31]  formatter.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  formatters
+│           │           │   │   │   │   ├── [5.3K Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [4.1K Apr 22 16:31]  _mapping.py
+│           │           │   │   │   │   ├── [3.2K Apr 22 16:31]  bbcode.py
+│           │           │   │   │   │   ├── [5.0K Apr 22 16:31]  groff.py
+│           │           │   │   │   │   ├── [ 35K Apr 22 16:31]  html.py
+│           │           │   │   │   │   ├── [ 23K Apr 22 16:31]  img.py
+│           │           │   │   │   │   ├── [4.9K Apr 22 16:31]  irc.py
+│           │           │   │   │   │   ├── [ 19K Apr 22 16:31]  latex.py
+│           │           │   │   │   │   ├── [4.9K Apr 22 16:31]  other.py
+│           │           │   │   │   │   ├── [2.2K Apr 22 16:31]  pangomarkup.py
+│           │           │   │   │   │   ├── [ 12K Apr 22 16:31]  rtf.py
+│           │           │   │   │   │   ├── [7.0K Apr 22 16:31]  svg.py
+│           │           │   │   │   │   ├── [4.6K Apr 22 16:31]  terminal.py
+│           │           │   │   │   │   └── [ 11K Apr 22 16:31]  terminal256.py
+│           │           │   │   │   ├── [ 35K Apr 22 16:31]  lexer.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  lexers
+│           │           │   │   │   │   ├── [ 12K Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [ 74K Apr 22 16:31]  _mapping.py
+│           │           │   │   │   │   └── [ 52K Apr 22 16:31]  python.py
+│           │           │   │   │   ├── [1005 Apr 22 16:31]  modeline.py
+│           │           │   │   │   ├── [1.8K Apr 22 16:31]  plugin.py
+│           │           │   │   │   ├── [3.0K Apr 22 16:31]  regexopt.py
+│           │           │   │   │   ├── [3.0K Apr 22 16:31]  scanner.py
+│           │           │   │   │   ├── [7.8K Apr 22 16:31]  sphinxext.py
+│           │           │   │   │   ├── [6.3K Apr 22 16:31]  style.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  styles
+│           │           │   │   │   │   ├── [2.0K Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   └── [3.2K Apr 22 16:31]  _mapping.py
+│           │           │   │   │   ├── [6.1K Apr 22 16:31]  token.py
+│           │           │   │   │   ├── [ 62K Apr 22 16:31]  unistring.py
+│           │           │   │   │   └── [9.8K Apr 22 16:31]  util.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  pyproject_hooks
+│           │           │   │   │   ├── [ 691 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 15K Apr 22 16:31]  _impl.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  _in_process
+│           │           │   │   │   │   ├── [ 557 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   └── [ 12K Apr 22 16:31]  _in_process.py
+│           │           │   │   │   └── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   ├── [4.0K Apr 22 16:31]  requests
+│           │           │   │   │   ├── [4.9K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 435 Apr 22 16:31]  __version__.py
+│           │           │   │   │   ├── [1.5K Apr 22 16:31]  _internal_utils.py
+│           │           │   │   │   ├── [ 27K Apr 22 16:31]  adapters.py
+│           │           │   │   │   ├── [6.3K Apr 22 16:31]  api.py
+│           │           │   │   │   ├── [9.9K Apr 22 16:31]  auth.py
+│           │           │   │   │   ├── [ 441 Apr 22 16:31]  certs.py
+│           │           │   │   │   ├── [1.5K Apr 22 16:31]  compat.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  cookies.py
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  exceptions.py
+│           │           │   │   │   ├── [3.7K Apr 22 16:31]  help.py
+│           │           │   │   │   ├── [ 733 Apr 22 16:31]  hooks.py
+│           │           │   │   │   ├── [ 35K Apr 22 16:31]  models.py
+│           │           │   │   │   ├── [1.0K Apr 22 16:31]  packages.py
+│           │           │   │   │   ├── [ 30K Apr 22 16:31]  sessions.py
+│           │           │   │   │   ├── [4.2K Apr 22 16:31]  status_codes.py
+│           │           │   │   │   ├── [2.8K Apr 22 16:31]  structures.py
+│           │           │   │   │   └── [ 33K Apr 22 16:31]  utils.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  resolvelib
+│           │           │   │   │   ├── [ 537 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  compat
+│           │           │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   └── [ 156 Apr 22 16:31]  collections_abc.py
+│           │           │   │   │   ├── [5.7K Apr 22 16:31]  providers.py
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   │   ├── [1.6K Apr 22 16:31]  reporters.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  resolvers.py
+│           │           │   │   │   └── [4.8K Apr 22 16:31]  structs.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  rich
+│           │           │   │   │   ├── [5.9K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [8.3K Apr 22 16:31]  __main__.py
+│           │           │   │   │   ├── [10.0K Apr 22 16:31]  _cell_widths.py
+│           │           │   │   │   ├── [137K Apr 22 16:31]  _emoji_codes.py
+│           │           │   │   │   ├── [1.0K Apr 22 16:31]  _emoji_replace.py
+│           │           │   │   │   ├── [2.1K Apr 22 16:31]  _export_format.py
+│           │           │   │   │   ├── [ 265 Apr 22 16:31]  _extension.py
+│           │           │   │   │   ├── [ 799 Apr 22 16:31]  _fileno.py
+│           │           │   │   │   ├── [9.4K Apr 22 16:31]  _inspect.py
+│           │           │   │   │   ├── [3.1K Apr 22 16:31]  _log_render.py
+│           │           │   │   │   ├── [1.2K Apr 22 16:31]  _loop.py
+│           │           │   │   │   ├── [1.4K Apr 22 16:31]  _null_file.py
+│           │           │   │   │   ├── [6.9K Apr 22 16:31]  _palettes.py
+│           │           │   │   │   ├── [ 423 Apr 22 16:31]  _pick.py
+│           │           │   │   │   ├── [5.3K Apr 22 16:31]  _ratio.py
+│           │           │   │   │   ├── [ 19K Apr 22 16:31]  _spinners.py
+│           │           │   │   │   ├── [ 351 Apr 22 16:31]  _stack.py
+│           │           │   │   │   ├── [ 417 Apr 22 16:31]  _timer.py
+│           │           │   │   │   ├── [ 22K Apr 22 16:31]  _win32_console.py
+│           │           │   │   │   ├── [1.9K Apr 22 16:31]  _windows.py
+│           │           │   │   │   ├── [2.7K Apr 22 16:31]  _windows_renderer.py
+│           │           │   │   │   ├── [3.3K Apr 22 16:31]  _wrap.py
+│           │           │   │   │   ├── [ 890 Apr 22 16:31]  abc.py
+│           │           │   │   │   ├── [ 10K Apr 22 16:31]  align.py
+│           │           │   │   │   ├── [6.8K Apr 22 16:31]  ansi.py
+│           │           │   │   │   ├── [3.2K Apr 22 16:31]  bar.py
+│           │           │   │   │   ├── [ 11K Apr 22 16:31]  box.py
+│           │           │   │   │   ├── [5.0K Apr 22 16:31]  cells.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  color.py
+│           │           │   │   │   ├── [1.0K Apr 22 16:31]  color_triplet.py
+│           │           │   │   │   ├── [7.0K Apr 22 16:31]  columns.py
+│           │           │   │   │   ├── [ 98K Apr 22 16:31]  console.py
+│           │           │   │   │   ├── [1.3K Apr 22 16:31]  constrain.py
+│           │           │   │   │   ├── [5.4K Apr 22 16:31]  containers.py
+│           │           │   │   │   ├── [6.5K Apr 22 16:31]  control.py
+│           │           │   │   │   ├── [8.0K Apr 22 16:31]  default_styles.py
+│           │           │   │   │   ├── [ 972 Apr 22 16:31]  diagnose.py
+│           │           │   │   │   ├── [2.4K Apr 22 16:31]  emoji.py
+│           │           │   │   │   ├── [ 642 Apr 22 16:31]  errors.py
+│           │           │   │   │   ├── [1.6K Apr 22 16:31]  file_proxy.py
+│           │           │   │   │   ├── [2.4K Apr 22 16:31]  filesize.py
+│           │           │   │   │   ├── [9.4K Apr 22 16:31]  highlighter.py
+│           │           │   │   │   ├── [4.9K Apr 22 16:31]  json.py
+│           │           │   │   │   ├── [3.2K Apr 22 16:31]  jupyter.py
+│           │           │   │   │   ├── [ 14K Apr 22 16:31]  layout.py
+│           │           │   │   │   ├── [ 14K Apr 22 16:31]  live.py
+│           │           │   │   │   ├── [3.6K Apr 22 16:31]  live_render.py
+│           │           │   │   │   ├── [ 12K Apr 22 16:31]  logging.py
+│           │           │   │   │   ├── [8.3K Apr 22 16:31]  markup.py
+│           │           │   │   │   ├── [5.2K Apr 22 16:31]  measure.py
+│           │           │   │   │   ├── [4.8K Apr 22 16:31]  padding.py
+│           │           │   │   │   ├── [ 828 Apr 22 16:31]  pager.py
+│           │           │   │   │   ├── [3.3K Apr 22 16:31]  palette.py
+│           │           │   │   │   ├── [ 11K Apr 22 16:31]  panel.py
+│           │           │   │   │   ├── [ 36K Apr 22 16:31]  pretty.py
+│           │           │   │   │   ├── [ 59K Apr 22 16:31]  progress.py
+│           │           │   │   │   ├── [8.0K Apr 22 16:31]  progress_bar.py
+│           │           │   │   │   ├── [ 12K Apr 22 16:31]  prompt.py
+│           │           │   │   │   ├── [1.4K Apr 22 16:31]  protocol.py
+│           │           │   │   │   ├── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   │   ├── [ 166 Apr 22 16:31]  region.py
+│           │           │   │   │   ├── [4.3K Apr 22 16:31]  repr.py
+│           │           │   │   │   ├── [4.5K Apr 22 16:31]  rule.py
+│           │           │   │   │   ├── [2.8K Apr 22 16:31]  scope.py
+│           │           │   │   │   ├── [1.6K Apr 22 16:31]  screen.py
+│           │           │   │   │   ├── [ 24K Apr 22 16:31]  segment.py
+│           │           │   │   │   ├── [4.3K Apr 22 16:31]  spinner.py
+│           │           │   │   │   ├── [4.3K Apr 22 16:31]  status.py
+│           │           │   │   │   ├── [ 26K Apr 22 16:31]  style.py
+│           │           │   │   │   ├── [1.2K Apr 22 16:31]  styled.py
+│           │           │   │   │   ├── [ 35K Apr 22 16:31]  syntax.py
+│           │           │   │   │   ├── [ 39K Apr 22 16:31]  table.py
+│           │           │   │   │   ├── [3.3K Apr 22 16:31]  terminal_theme.py
+│           │           │   │   │   ├── [ 46K Apr 22 16:31]  text.py
+│           │           │   │   │   ├── [3.7K Apr 22 16:31]  theme.py
+│           │           │   │   │   ├── [ 102 Apr 22 16:31]  themes.py
+│           │           │   │   │   ├── [ 31K Apr 22 16:31]  traceback.py
+│           │           │   │   │   └── [9.2K Apr 22 16:31]  tree.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  tomli
+│           │           │   │   │   ├── [ 314 Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 25K Apr 22 16:31]  _parser.py
+│           │           │   │   │   ├── [3.1K Apr 22 16:31]  _re.py
+│           │           │   │   │   ├── [ 254 Apr 22 16:31]  _types.py
+│           │           │   │   │   └── [  26 Apr 22 16:31]  py.typed
+│           │           │   │   ├── [4.0K Apr 22 16:31]  truststore
+│           │           │   │   │   ├── [1.2K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 10K Apr 22 16:31]  _api.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  _macos.py
+│           │           │   │   │   ├── [2.3K Apr 22 16:31]  _openssl.py
+│           │           │   │   │   ├── [1.1K Apr 22 16:31]  _ssl_constants.py
+│           │           │   │   │   ├── [ 18K Apr 22 16:31]  _windows.py
+│           │           │   │   │   └── [   0 Apr 22 16:31]  py.typed
+│           │           │   │   ├── [131K Apr 22 16:31]  typing_extensions.py
+│           │           │   │   ├── [4.0K Apr 22 16:31]  urllib3
+│           │           │   │   │   ├── [3.3K Apr 22 16:31]  __init__.py
+│           │           │   │   │   ├── [ 11K Apr 22 16:31]  _collections.py
+│           │           │   │   │   ├── [  64 Apr 22 16:31]  _version.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  connection.py
+│           │           │   │   │   ├── [ 39K Apr 22 16:31]  connectionpool.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  contrib
+│           │           │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [ 957 Apr 22 16:31]  _appengine_environ.py
+│           │           │   │   │   │   ├── [4.0K Apr 22 16:31]  _securetransport
+│           │           │   │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   │   ├── [ 17K Apr 22 16:31]  bindings.py
+│           │           │   │   │   │   │   └── [ 14K Apr 22 16:31]  low_level.py
+│           │           │   │   │   │   ├── [ 11K Apr 22 16:31]  appengine.py
+│           │           │   │   │   │   ├── [4.4K Apr 22 16:31]  ntlmpool.py
+│           │           │   │   │   │   ├── [ 17K Apr 22 16:31]  pyopenssl.py
+│           │           │   │   │   │   ├── [ 34K Apr 22 16:31]  securetransport.py
+│           │           │   │   │   │   └── [6.9K Apr 22 16:31]  socks.py
+│           │           │   │   │   ├── [8.0K Apr 22 16:31]  exceptions.py
+│           │           │   │   │   ├── [8.4K Apr 22 16:31]  fields.py
+│           │           │   │   │   ├── [2.4K Apr 22 16:31]  filepost.py
+│           │           │   │   │   ├── [4.0K Apr 22 16:31]  packages
+│           │           │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   ├── [4.0K Apr 22 16:31]  backports
+│           │           │   │   │   │   │   ├── [   0 Apr 22 16:31]  __init__.py
+│           │           │   │   │   │   │   ├── [1.4K Apr 22 16:31]  makefile.py
+│           │           │   │   │   │   │   └── [5.2K Apr 22 16:31]  weakref_finalize.py
+│           │           │   │   │   │   └── [ 34K Apr 22 16:31]  six.py
+│           │           │   │   │   ├── [ 20K Apr 22 16:31]  poolmanager.py
+│           │           │   │   │   ├── [6.5K Apr 22 16:31]  request.py
+│           │           │   │   │   ├── [ 30K Apr 22 16:31]  response.py
+│           │           │   │   │   └── [4.0K Apr 22 16:31]  util
+│           │           │   │   │       ├── [1.1K Apr 22 16:31]  __init__.py
+│           │           │   │   │       ├── [4.8K Apr 22 16:31]  connection.py
+│           │           │   │   │       ├── [1.6K Apr 22 16:31]  proxy.py
+│           │           │   │   │       ├── [ 498 Apr 22 16:31]  queue.py
+│           │           │   │   │       ├── [3.9K Apr 22 16:31]  request.py
+│           │           │   │   │       ├── [3.4K Apr 22 16:31]  response.py
+│           │           │   │   │       ├── [ 22K Apr 22 16:31]  retry.py
+│           │           │   │   │       ├── [ 17K Apr 22 16:31]  ssl_.py
+│           │           │   │   │       ├── [5.6K Apr 22 16:31]  ssl_match_hostname.py
+│           │           │   │   │       ├── [6.7K Apr 22 16:31]  ssltransport.py
+│           │           │   │   │       ├── [9.9K Apr 22 16:31]  timeout.py
+│           │           │   │   │       ├── [ 14K Apr 22 16:31]  url.py
+│           │           │   │   │       └── [5.3K Apr 22 16:31]  wait.py
+│           │           │   │   └── [ 333 Apr 22 16:31]  vendor.txt
+│           │           │   └── [ 286 Apr 22 16:31]  py.typed
+│           │           ├── [4.0K Apr 22 16:31]  pip-25.0.1.dist-info
+│           │           │   ├── [ 11K Apr 22 16:31]  AUTHORS.txt
+│           │           │   ├── [   4 Apr 22 16:31]  INSTALLER
+│           │           │   ├── [1.1K Apr 22 16:31]  LICENSE.txt
+│           │           │   ├── [3.6K Apr 22 16:31]  METADATA
+│           │           │   ├── [ 64K Apr 22 16:31]  RECORD
+│           │           │   ├── [   0 Apr 22 16:31]  REQUESTED
+│           │           │   ├── [  91 Apr 22 16:31]  WHEEL
+│           │           │   ├── [  87 Apr 22 16:31]  entry_points.txt
+│           │           │   └── [   4 Apr 22 16:31]  top_level.txt
+│           │           ├── [4.0K Apr 22 18:49]  pyttsx3
+│           │           │   ├── [ 782 Apr 22 18:49]  __init__.py
+│           │           │   ├── [6.6K Apr 22 18:49]  driver.py
+│           │           │   ├── [4.0K Apr 22 18:49]  drivers
+│           │           │   │   ├── [ 830 Apr 22 18:49]  __init__.py
+│           │           │   │   ├── [ 18K Apr 22 18:49]  _espeak.py
+│           │           │   │   ├── [5.9K Apr 22 18:49]  dummy.py
+│           │           │   │   ├── [8.3K Apr 22 18:49]  espeak.py
+│           │           │   │   ├── [5.4K Apr 22 18:49]  nsss.py
+│           │           │   │   └── [6.3K Apr 22 18:49]  sapi5.py
+│           │           │   ├── [6.8K Apr 22 18:49]  engine.py
+│           │           │   ├── [ 28K Apr 22 18:49]  six.py
+│           │           │   └── [ 417 Apr 22 18:49]  voice.py
+│           │           ├── [4.0K Apr 22 18:49]  pyttsx3-2.98.dist-info
+│           │           │   ├── [   4 Apr 22 18:49]  INSTALLER
+│           │           │   ├── [ 16K Apr 22 18:49]  LICENSE
+│           │           │   ├── [3.7K Apr 22 18:49]  METADATA
+│           │           │   ├── [1.9K Apr 22 18:49]  RECORD
+│           │           │   ├── [   0 Apr 22 18:49]  REQUESTED
+│           │           │   ├── [  91 Apr 22 18:49]  WHEEL
+│           │           │   └── [   8 Apr 22 18:49]  top_level.txt
+│           │           ├── [4.0K Apr 23 01:09]  werkzeug
+│           │           │   ├── [ 165 Apr 23 01:09]  __init__.py
+│           │           │   ├── [5.4K Apr 23 01:09]  _internal.py
+│           │           │   ├── [ 15K Apr 23 01:09]  _reloader.py
+│           │           │   ├── [4.0K Apr 23 01:09]  datastructures
+│           │           │   │   ├── [2.6K Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [ 12K Apr 23 01:09]  accept.py
+│           │           │   │   ├── [9.8K Apr 23 01:09]  auth.py
+│           │           │   │   ├── [9.5K Apr 23 01:09]  cache_control.py
+│           │           │   │   ├── [3.7K Apr 23 01:09]  csp.py
+│           │           │   │   ├── [3.2K Apr 23 01:09]  etag.py
+│           │           │   │   ├── [6.5K Apr 23 01:09]  file_storage.py
+│           │           │   │   ├── [ 21K Apr 23 01:09]  headers.py
+│           │           │   │   ├── [8.8K Apr 23 01:09]  mixins.py
+│           │           │   │   ├── [6.9K Apr 23 01:09]  range.py
+│           │           │   │   └── [ 40K Apr 23 01:09]  structures.py
+│           │           │   ├── [4.0K Apr 23 01:09]  debug
+│           │           │   │   ├── [ 20K Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [5.9K Apr 23 01:09]  console.py
+│           │           │   │   ├── [9.1K Apr 23 01:09]  repr.py
+│           │           │   │   ├── [4.0K Apr 23 01:09]  shared
+│           │           │   │   │   ├── [ 222 Apr 23 01:09]  ICON_LICENSE.md
+│           │           │   │   │   ├── [ 507 Apr 23 01:09]  console.png
+│           │           │   │   │   ├── [9.8K Apr 23 01:09]  debugger.js
+│           │           │   │   │   ├── [ 191 Apr 23 01:09]  less.png
+│           │           │   │   │   ├── [ 200 Apr 23 01:09]  more.png
+│           │           │   │   │   └── [5.9K Apr 23 01:09]  style.css
+│           │           │   │   └── [ 13K Apr 23 01:09]  tbtools.py
+│           │           │   ├── [ 26K Apr 23 01:09]  exceptions.py
+│           │           │   ├── [ 15K Apr 23 01:09]  formparser.py
+│           │           │   ├── [ 44K Apr 23 01:09]  http.py
+│           │           │   ├── [ 22K Apr 23 01:09]  local.py
+│           │           │   ├── [4.0K Apr 23 01:09]  middleware
+│           │           │   │   ├── [   0 Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [2.5K Apr 23 01:09]  dispatcher.py
+│           │           │   │   ├── [7.7K Apr 23 01:09]  http_proxy.py
+│           │           │   │   ├── [ 14K Apr 23 01:09]  lint.py
+│           │           │   │   ├── [5.4K Apr 23 01:09]  profiler.py
+│           │           │   │   ├── [6.6K Apr 23 01:09]  proxy_fix.py
+│           │           │   │   └── [9.3K Apr 23 01:09]  shared_data.py
+│           │           │   ├── [   0 Apr 23 01:09]  py.typed
+│           │           │   ├── [4.0K Apr 23 01:09]  routing
+│           │           │   │   ├── [4.7K Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [7.1K Apr 23 01:09]  converters.py
+│           │           │   │   ├── [4.7K Apr 23 01:09]  exceptions.py
+│           │           │   │   ├── [ 36K Apr 23 01:09]  map.py
+│           │           │   │   ├── [7.7K Apr 23 01:09]  matcher.py
+│           │           │   │   └── [ 32K Apr 23 01:09]  rules.py
+│           │           │   ├── [4.0K Apr 23 01:09]  sansio
+│           │           │   │   ├── [   0 Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [5.2K Apr 23 01:09]  http.py
+│           │           │   │   ├── [ 11K Apr 23 01:09]  multipart.py
+│           │           │   │   ├── [ 19K Apr 23 01:09]  request.py
+│           │           │   │   ├── [ 27K Apr 23 01:09]  response.py
+│           │           │   │   └── [5.1K Apr 23 01:09]  utils.py
+│           │           │   ├── [5.5K Apr 23 01:09]  security.py
+│           │           │   ├── [ 39K Apr 23 01:09]  serving.py
+│           │           │   ├── [ 52K Apr 23 01:09]  test.py
+│           │           │   ├── [6.2K Apr 23 01:09]  testapp.py
+│           │           │   ├── [6.3K Apr 23 01:09]  urls.py
+│           │           │   ├── [1.4K Apr 23 01:09]  user_agent.py
+│           │           │   ├── [ 24K Apr 23 01:09]  utils.py
+│           │           │   ├── [4.0K Apr 23 01:09]  wrappers
+│           │           │   │   ├── [ 138 Apr 23 01:09]  __init__.py
+│           │           │   │   ├── [ 24K Apr 23 01:09]  request.py
+│           │           │   │   └── [ 32K Apr 23 01:09]  response.py
+│           │           │   └── [ 20K Apr 23 01:09]  wsgi.py
+│           │           └── [4.0K Apr 23 01:09]  werkzeug-3.1.3.dist-info
+│           │               ├── [   4 Apr 23 01:09]  INSTALLER
+│           │               ├── [1.4K Apr 23 01:09]  LICENSE.txt
+│           │               ├── [3.6K Apr 23 01:09]  METADATA
+│           │               ├── [8.1K Apr 23 01:09]  RECORD
+│           │               └── [  82 Apr 23 01:09]  WHEEL
+│           ├── [   3 Apr 22 16:30]  lib64 -> lib
+│           └── [ 179 Apr 22 16:30]  pyvenv.cfg
+├── [   2 Apr 23 09:08]  shared_forklink.json
+├── [4.0K Apr 23 13:22]  src
+│   └── [4.0K Apr 23 13:22]  components
+├── [4.0K Apr 24 15:47]  tests
+│   ├── [4.0K Apr 24 15:44]  backend
+│   └── [4.0K Apr 24 15:47]  frontendmkdir
+├── [4.0K Apr 23 02:16]  tier1ui
+│   ├── [4.0K Apr 23 02:11]  src
+│   │   ├── [ 910 Apr 23 02:11]  TaskBoard.jsx
+│   │   └── [ 867 Apr 23 07:48]  TaskForm.jsx
+│   └── [4.0K Apr 23 02:18]  tier1ui
+│       ├── [ 310 Apr 23 02:18]  .gitignore
+│       ├── [3.3K Apr 23 02:18]  README.md
+│       ├── [647K Apr 23 02:18]  package-lock.json
+│       ├── [ 848 Apr 23 02:18]  package.json
+│       ├── [4.0K Apr 23 02:18]  public
+│       │   ├── [3.8K Apr 23 02:18]  favicon.ico
+│       │   ├── [1.7K Apr 23 02:18]  index.html
+│       │   ├── [5.2K Apr 23 02:18]  logo192.png
+│       │   ├── [9.4K Apr 23 02:18]  logo512.png
+│       │   ├── [ 492 Apr 23 02:18]  manifest.json
+│       │   └── [  67 Apr 23 02:18]  robots.txt
+│       └── [4.0K Apr 23 02:18]  src
+│           ├── [ 564 Apr 23 02:18]  App.css
+│           ├── [ 528 Apr 23 02:18]  App.js
+│           ├── [ 246 Apr 23 02:18]  App.test.js
+│           ├── [ 366 Apr 23 02:18]  index.css
+│           ├── [ 535 Apr 23 02:18]  index.js
+│           ├── [2.6K Apr 23 02:18]  logo.svg
+│           ├── [ 362 Apr 23 02:18]  reportWebVitals.js
+│           └── [ 241 Apr 23 02:18]  setupTests.js
+└── [4.0K Apr 23 07:06]  venv
+    ├── [4.0K Apr 24 11:05]  bin
+    │   ├── [8.8K Apr 23 07:06]  Activate.ps1
+    │   ├── [2.0K Apr 23 07:06]  activate
+    │   ├── [ 921 Apr 23 07:06]  activate.csh
+    │   ├── [2.1K Apr 23 07:06]  activate.fish
+    │   ├── [ 229 Apr 23 08:17]  flask
+    │   ├── [ 247 Apr 24 11:05]  normalizer
+    │   ├── [ 242 Apr 23 07:06]  pip
+    │   ├── [ 242 Apr 23 07:06]  pip3
+    │   ├── [ 242 Apr 23 07:06]  pip3.12
+    │   ├── [   7 Apr 23 07:06]  python -> python3
+    │   ├── [  16 Apr 23 07:06]  python3 -> /usr/bin/python3
+    │   └── [   7 Apr 23 07:06]  python3.12 -> python3
+    ├── [4.0K Apr 23 07:06]  include
+    │   └── [4.0K Apr 23 07:06]  python3.12
+    ├── [4.0K Apr 23 07:06]  lib
+    │   └── [4.0K Apr 23 07:06]  python3.12
+    │       └── [4.0K Apr 24 18:59]  site-packages
+    │           ├── [4.0K Apr 23 08:17]  MarkupSafe-3.0.2.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [1.4K Apr 23 08:17]  LICENSE.txt
+    │           │   ├── [3.9K Apr 23 08:17]  METADATA
+    │           │   ├── [1.1K Apr 23 08:17]  RECORD
+    │           │   ├── [ 151 Apr 23 08:17]  WHEEL
+    │           │   └── [  11 Apr 23 08:17]  top_level.txt
+    │           ├── [4.0K Apr 24 18:59]  beautifulsoup4-4.13.4.dist-info
+    │           │   ├── [   4 Apr 24 18:59]  INSTALLER
+    │           │   ├── [3.7K Apr 24 18:59]  METADATA
+    │           │   ├── [7.2K Apr 24 18:59]  RECORD
+    │           │   ├── [   0 Apr 24 18:59]  REQUESTED
+    │           │   ├── [  87 Apr 24 18:59]  WHEEL
+    │           │   └── [4.0K Apr 24 18:59]  licenses
+    │           │       ├── [2.1K Apr 24 18:59]  AUTHORS
+    │           │       └── [1.4K Apr 24 18:59]  LICENSE
+    │           ├── [4.0K Apr 23 08:17]  blinker
+    │           │   ├── [ 317 Apr 23 08:17]  __init__.py
+    │           │   ├── [1.6K Apr 23 08:17]  _utilities.py
+    │           │   ├── [ 19K Apr 23 08:17]  base.py
+    │           │   └── [   0 Apr 23 08:17]  py.typed
+    │           ├── [4.0K Apr 23 08:17]  blinker-1.9.0.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [1.0K Apr 23 08:17]  LICENSE.txt
+    │           │   ├── [1.6K Apr 23 08:17]  METADATA
+    │           │   ├── [ 832 Apr 23 08:17]  RECORD
+    │           │   └── [  82 Apr 23 08:17]  WHEEL
+    │           ├── [4.0K Apr 24 18:59]  bs4
+    │           │   ├── [ 43K Apr 24 18:59]  __init__.py
+    │           │   ├── [2.3K Apr 24 18:59]  _deprecation.py
+    │           │   ├── [7.0K Apr 24 18:59]  _typing.py
+    │           │   ├── [4.6K Apr 24 18:59]  _warnings.py
+    │           │   ├── [4.0K Apr 24 18:59]  builder
+    │           │   │   ├── [ 30K Apr 24 18:59]  __init__.py
+    │           │   │   ├── [ 22K Apr 24 18:59]  _html5lib.py
+    │           │   │   ├── [ 17K Apr 24 18:59]  _htmlparser.py
+    │           │   │   └── [ 18K Apr 24 18:59]  _lxml.py
+    │           │   ├── [ 12K Apr 24 18:59]  css.py
+    │           │   ├── [ 50K Apr 24 18:59]  dammit.py
+    │           │   ├── [7.6K Apr 24 18:59]  diagnose.py
+    │           │   ├── [107K Apr 24 18:59]  element.py
+    │           │   ├── [ 951 Apr 24 18:59]  exceptions.py
+    │           │   ├── [ 28K Apr 24 18:59]  filter.py
+    │           │   ├── [ 10K Apr 24 18:59]  formatter.py
+    │           │   ├── [   0 Apr 24 18:59]  py.typed
+    │           │   └── [4.0K Apr 24 18:59]  tests
+    │           │       ├── [ 51K Apr 24 18:59]  __init__.py
+    │           │       ├── [4.0K Apr 24 18:59]  fuzz
+    │           │       │   ├── [  15 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-4670634698080256.testcase
+    │           │       │   ├── [  23 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-4818336571064320.testcase
+    │           │       │   ├── [  30 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-4999465949331456.testcase
+    │           │       │   ├── [ 15K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5000587759190016.testcase
+    │           │       │   ├── [ 19K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5167584867909632.testcase
+    │           │       │   ├── [  12 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5270998950477824.testcase
+    │           │       │   ├── [4.2K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5375146639360000.testcase
+    │           │       │   ├── [ 11K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5492400320282624.testcase
+    │           │       │   ├── [   5 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5703933063462912.testcase
+    │           │       │   ├── [  35 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5843991618256896.testcase
+    │           │       │   ├── [ 50K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-5984173902397440.testcase
+    │           │       │   ├── [ 10K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-6124268085182464.testcase
+    │           │       │   ├── [  19 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-6241471367348224.testcase
+    │           │       │   ├── [  47 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-6306874195312640.testcase
+    │           │       │   ├── [3.5K Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-6450958476902400.testcase
+    │           │       │   ├── [ 124 Apr 24 18:59]  clusterfuzz-testcase-minimized-bs4_fuzzer-6600557255327744.testcase
+    │           │       │   ├── [2.5K Apr 24 18:59]  crash-0d306a50c8ed8bcd0785b67000fcd5dea1d33f08.testcase
+    │           │       │   └── [ 103 Apr 24 18:59]  crash-ffbdfa8a2b26f13537b68d3794b0478a4090ee4a.testcase
+    │           │       ├── [1.1K Apr 24 18:59]  test_builder.py
+    │           │       ├── [4.9K Apr 24 18:59]  test_builder_registry.py
+    │           │       ├── [ 18K Apr 24 18:59]  test_css.py
+    │           │       ├── [ 17K Apr 24 18:59]  test_dammit.py
+    │           │       ├── [4.3K Apr 24 18:59]  test_element.py
+    │           │       ├── [ 27K Apr 24 18:59]  test_filter.py
+    │           │       ├── [6.8K Apr 24 18:59]  test_formatter.py
+    │           │       ├── [7.0K Apr 24 18:59]  test_fuzz.py
+    │           │       ├── [9.0K Apr 24 18:59]  test_html5lib.py
+    │           │       ├── [6.5K Apr 24 18:59]  test_htmlparser.py
+    │           │       ├── [7.3K Apr 24 18:59]  test_lxml.py
+    │           │       ├── [5.5K Apr 24 18:59]  test_navigablestring.py
+    │           │       ├── [ 16K Apr 24 18:59]  test_pageelement.py
+    │           │       ├── [ 22K Apr 24 18:59]  test_soup.py
+    │           │       ├── [9.5K Apr 24 18:59]  test_tag.py
+    │           │       └── [ 54K Apr 24 18:59]  test_tree.py
+    │           ├── [4.0K Apr 24 11:05]  certifi
+    │           │   ├── [  94 Apr 24 11:05]  __init__.py
+    │           │   ├── [ 243 Apr 24 11:05]  __main__.py
+    │           │   ├── [290K Apr 24 11:05]  cacert.pem
+    │           │   ├── [4.3K Apr 24 11:05]  core.py
+    │           │   └── [   0 Apr 24 11:05]  py.typed
+    │           ├── [4.0K Apr 24 11:05]  certifi-2025.1.31.dist-info
+    │           │   ├── [   4 Apr 24 11:05]  INSTALLER
+    │           │   ├── [ 989 Apr 24 11:05]  LICENSE
+    │           │   ├── [2.4K Apr 24 11:05]  METADATA
+    │           │   ├── [1014 Apr 24 11:05]  RECORD
+    │           │   ├── [  91 Apr 24 11:05]  WHEEL
+    │           │   └── [   8 Apr 24 11:05]  top_level.txt
+    │           ├── [4.0K Apr 24 11:05]  charset_normalizer
+    │           │   ├── [1.6K Apr 24 11:05]  __init__.py
+    │           │   ├── [ 109 Apr 24 11:05]  __main__.py
+    │           │   ├── [ 22K Apr 24 11:05]  api.py
+    │           │   ├── [ 12K Apr 24 11:05]  cd.py
+    │           │   ├── [4.0K Apr 24 11:05]  cli
+    │           │   │   ├── [ 136 Apr 24 11:05]  __init__.py
+    │           │   │   └── [ 10K Apr 24 11:05]  __main__.py
+    │           │   ├── [ 40K Apr 24 11:05]  constant.py
+    │           │   ├── [2.3K Apr 24 11:05]  legacy.py
+    │           │   ├── [ 16K Apr 24 11:05]  md.cpython-312-x86_64-linux-gnu.so
+    │           │   ├── [ 20K Apr 24 11:05]  md.py
+    │           │   ├── [274K Apr 24 11:05]  md__mypyc.cpython-312-x86_64-linux-gnu.so
+    │           │   ├── [ 12K Apr 24 11:05]  models.py
+    │           │   ├── [   0 Apr 24 11:05]  py.typed
+    │           │   ├── [ 12K Apr 24 11:05]  utils.py
+    │           │   └── [ 115 Apr 24 11:05]  version.py
+    │           ├── [4.0K Apr 24 11:05]  charset_normalizer-3.4.1.dist-info
+    │           │   ├── [   4 Apr 24 11:05]  INSTALLER
+    │           │   ├── [1.0K Apr 24 11:05]  LICENSE
+    │           │   ├── [ 34K Apr 24 11:05]  METADATA
+    │           │   ├── [2.7K Apr 24 11:05]  RECORD
+    │           │   ├── [ 151 Apr 24 11:05]  WHEEL
+    │           │   ├── [  65 Apr 24 11:05]  entry_points.txt
+    │           │   └── [  19 Apr 24 11:05]  top_level.txt
+    │           ├── [4.0K Apr 23 08:17]  click
+    │           │   ├── [3.1K Apr 23 08:17]  __init__.py
+    │           │   ├── [ 18K Apr 23 08:17]  _compat.py
+    │           │   ├── [ 24K Apr 23 08:17]  _termui_impl.py
+    │           │   ├── [1.3K Apr 23 08:17]  _textwrap.py
+    │           │   ├── [7.7K Apr 23 08:17]  _winconsole.py
+    │           │   ├── [112K Apr 23 08:17]  core.py
+    │           │   ├── [ 18K Apr 23 08:17]  decorators.py
+    │           │   ├── [9.4K Apr 23 08:17]  exceptions.py
+    │           │   ├── [9.5K Apr 23 08:17]  formatting.py
+    │           │   ├── [1.9K Apr 23 08:17]  globals.py
+    │           │   ├── [ 19K Apr 23 08:17]  parser.py
+    │           │   ├── [   0 Apr 23 08:17]  py.typed
+    │           │   ├── [ 18K Apr 23 08:17]  shell_completion.py
+    │           │   ├── [ 28K Apr 23 08:17]  termui.py
+    │           │   ├── [ 16K Apr 23 08:17]  testing.py
+    │           │   ├── [ 36K Apr 23 08:17]  types.py
+    │           │   └── [ 20K Apr 23 08:17]  utils.py
+    │           ├── [4.0K Apr 23 08:17]  click-8.1.8.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [1.4K Apr 23 08:17]  LICENSE.txt
+    │           │   ├── [2.2K Apr 23 08:17]  METADATA
+    │           │   ├── [2.3K Apr 23 08:17]  RECORD
+    │           │   └── [  82 Apr 23 08:17]  WHEEL
+    │           ├── [4.0K Apr 23 08:17]  flask
+    │           │   ├── [2.6K Apr 23 08:17]  __init__.py
+    │           │   ├── [  30 Apr 23 08:17]  __main__.py
+    │           │   ├── [ 60K Apr 23 08:17]  app.py
+    │           │   ├── [4.4K Apr 23 08:17]  blueprints.py
+    │           │   ├── [ 36K Apr 23 08:17]  cli.py
+    │           │   ├── [ 13K Apr 23 08:17]  config.py
+    │           │   ├── [ 15K Apr 23 08:17]  ctx.py
+    │           │   ├── [5.9K Apr 23 08:17]  debughelpers.py
+    │           │   ├── [1.7K Apr 23 08:17]  globals.py
+    │           │   ├── [ 23K Apr 23 08:17]  helpers.py
+    │           │   ├── [4.0K Apr 23 08:17]  json
+    │           │   │   ├── [5.5K Apr 23 08:17]  __init__.py
+    │           │   │   ├── [7.5K Apr 23 08:17]  provider.py
+    │           │   │   └── [9.1K Apr 23 08:17]  tag.py
+    │           │   ├── [2.3K Apr 23 08:17]  logging.py
+    │           │   ├── [   0 Apr 23 08:17]  py.typed
+    │           │   ├── [4.0K Apr 23 08:17]  sansio
+    │           │   │   ├── [ 228 Apr 23 08:17]  README.md
+    │           │   │   ├── [ 37K Apr 23 08:17]  app.py
+    │           │   │   ├── [ 24K Apr 23 08:17]  blueprints.py
+    │           │   │   └── [ 30K Apr 23 08:17]  scaffold.py
+    │           │   ├── [ 15K Apr 23 08:17]  sessions.py
+    │           │   ├── [ 750 Apr 23 08:17]  signals.py
+    │           │   ├── [7.4K Apr 23 08:17]  templating.py
+    │           │   ├── [9.9K Apr 23 08:17]  testing.py
+    │           │   ├── [3.1K Apr 23 08:17]  typing.py
+    │           │   ├── [6.8K Apr 23 08:17]  views.py
+    │           │   └── [9.2K Apr 23 08:17]  wrappers.py
+    │           ├── [4.0K Apr 23 08:17]  flask-3.1.0.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [1.4K Apr 23 08:17]  LICENSE.txt
+    │           │   ├── [2.7K Apr 23 08:17]  METADATA
+    │           │   ├── [3.6K Apr 23 08:17]  RECORD
+    │           │   ├── [   0 Apr 23 08:17]  REQUESTED
+    │           │   ├── [  82 Apr 23 08:17]  WHEEL
+    │           │   └── [  40 Apr 23 08:17]  entry_points.txt
+    │           ├── [4.0K Apr 23 08:17]  flask_cors
+    │           │   ├── [ 522 Apr 23 08:17]  __init__.py
+    │           │   ├── [ 13K Apr 23 08:17]  core.py
+    │           │   ├── [4.6K Apr 23 08:17]  decorator.py
+    │           │   ├── [8.0K Apr 23 08:17]  extension.py
+    │           │   └── [  22 Apr 23 08:17]  version.py
+    │           ├── [4.0K Apr 23 08:17]  flask_cors-5.0.1.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [ 961 Apr 23 08:17]  METADATA
+    │           │   ├── [1.1K Apr 23 08:17]  RECORD
+    │           │   ├── [   0 Apr 23 08:17]  REQUESTED
+    │           │   ├── [  91 Apr 23 08:17]  WHEEL
+    │           │   └── [  11 Apr 23 08:17]  top_level.txt
+    │           ├── [4.0K Apr 24 11:05]  idna
+    │           │   ├── [ 868 Apr 24 11:05]  __init__.py
+    │           │   ├── [3.3K Apr 24 11:05]  codec.py
+    │           │   ├── [ 316 Apr 24 11:05]  compat.py
+    │           │   ├── [ 13K Apr 24 11:05]  core.py
+    │           │   ├── [ 76K Apr 24 11:05]  idnadata.py
+    │           │   ├── [1.9K Apr 24 11:05]  intranges.py
+    │           │   ├── [  21 Apr 24 11:05]  package_data.py
+    │           │   ├── [   0 Apr 24 11:05]  py.typed
+    │           │   └── [234K Apr 24 11:05]  uts46data.py
+    │           ├── [4.0K Apr 24 11:05]  idna-3.10.dist-info
+    │           │   ├── [   4 Apr 24 11:05]  INSTALLER
+    │           │   ├── [1.5K Apr 24 11:05]  LICENSE.md
+    │           │   ├── [9.9K Apr 24 11:05]  METADATA
+    │           │   ├── [1.4K Apr 24 11:05]  RECORD
+    │           │   └── [  81 Apr 24 11:05]  WHEEL
+    │           ├── [4.0K Apr 23 08:17]  itsdangerous
+    │           │   ├── [1.4K Apr 23 08:17]  __init__.py
+    │           │   ├── [ 473 Apr 23 08:17]  _json.py
+    │           │   ├── [1.4K Apr 23 08:17]  encoding.py
+    │           │   ├── [3.1K Apr 23 08:17]  exc.py
+    │           │   ├── [   0 Apr 23 08:17]  py.typed
+    │           │   ├── [ 15K Apr 23 08:17]  serializer.py
+    │           │   ├── [9.4K Apr 23 08:17]  signer.py
+    │           │   ├── [7.9K Apr 23 08:17]  timed.py
+    │           │   └── [2.4K Apr 23 08:17]  url_safe.py
+    │           ├── [4.0K Apr 23 08:17]  itsdangerous-2.2.0.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [1.4K Apr 23 08:17]  LICENSE.txt
+    │           │   ├── [1.9K Apr 23 08:17]  METADATA
+    │           │   ├── [1.5K Apr 23 08:17]  RECORD
+    │           │   └── [  81 Apr 23 08:17]  WHEEL
+    │           ├── [4.0K Apr 23 08:17]  jinja2
+    │           │   ├── [1.9K Apr 23 08:17]  __init__.py
+    │           │   ├── [1.9K Apr 23 08:17]  _identifier.py
+    │           │   ├── [2.8K Apr 23 08:17]  async_utils.py
+    │           │   ├── [ 14K Apr 23 08:17]  bccache.py
+    │           │   ├── [ 72K Apr 23 08:17]  compiler.py
+    │           │   ├── [1.4K Apr 23 08:17]  constants.py
+    │           │   ├── [6.1K Apr 23 08:17]  debug.py
+    │           │   ├── [1.2K Apr 23 08:17]  defaults.py
+    │           │   ├── [ 60K Apr 23 08:17]  environment.py
+    │           │   ├── [5.0K Apr 23 08:17]  exceptions.py
+    │           │   ├── [ 31K Apr 23 08:17]  ext.py
+    │           │   ├── [ 54K Apr 23 08:17]  filters.py
+    │           │   ├── [ 10K Apr 23 08:17]  idtracking.py
+    │           │   ├── [ 29K Apr 23 08:17]  lexer.py
+    │           │   ├── [ 23K Apr 23 08:17]  loaders.py
+    │           │   ├── [4.3K Apr 23 08:17]  meta.py
+    │           │   ├── [4.1K Apr 23 08:17]  nativetypes.py
+    │           │   ├── [ 34K Apr 23 08:17]  nodes.py
+    │           │   ├── [1.6K Apr 23 08:17]  optimizer.py
+    │           │   ├── [ 39K Apr 23 08:17]  parser.py
+    │           │   ├── [   0 Apr 23 08:17]  py.typed
+    │           │   ├── [ 33K Apr 23 08:17]  runtime.py
+    │           │   ├── [ 15K Apr 23 08:17]  sandbox.py
+    │           │   ├── [5.8K Apr 23 08:17]  tests.py
+    │           │   ├── [ 24K Apr 23 08:17]  utils.py
+    │           │   └── [3.5K Apr 23 08:17]  visitor.py
+    │           ├── [4.0K Apr 23 08:17]  jinja2-3.1.6.dist-info
+    │           │   ├── [   4 Apr 23 08:17]  INSTALLER
+    │           │   ├── [2.8K Apr 23 08:17]  METADATA
+    │           │   ├── [3.5K Apr 23 08:17]  RECORD
+    │           │   ├── [  82 Apr 23 08:17]  WHEEL
+    │           │   ├── [  58 Apr 23 08:17]  entry_points.txt
+    │           │   └── [4.0K Apr 23 08:17]  licenses
+    │           │       └── [1.4K Apr 23 08:17]  LICENSE.txt
+    │           ├── [4.0K Apr 23 08:17]  markupsafe
+    │           │   ├── [ 13K Apr 23 08:17]  __init__.py
+    │           │   ├── [ 210 Apr 23 08:17]  _native.py
+    │           │   ├── [4.1K Apr 23 08:17]  _speedups.c
+    │           │   ├── [ 42K Apr 23 08:17]  _speedups.cpython-312-x86_64-linux-gnu.so
+    │           │   ├── [  41 Apr 23 08:17]  _speedups.pyi
+    │           │   └── [   0 Apr 23 08:17]  py.typed
+    │           ├── [4.0K Apr 23 07:06]  pip
+    │           │   ├── [ 355 Apr 23 07:06]  __init__.py
+    │           │   ├── [ 854 Apr 23 07:06]  __main__.py
+    │           │   ├── [1.4K Apr 23 07:06]  __pip-runner__.py
+    │           │   ├── [4.0K Apr 23 07:06]  _internal
+    │           │   │   ├── [ 515 Apr 23 07:06]  __init__.py
+    │           │   │   ├── [ 10K Apr 23 07:06]  build_env.py
+    │           │   │   ├── [ 10K Apr 23 07:06]  cache.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  cli
+    │           │   │   │   ├── [ 132 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [6.5K Apr 23 07:06]  autocompletion.py
+    │           │   │   │   ├── [8.5K Apr 23 07:06]  base_command.py
+    │           │   │   │   ├── [ 29K Apr 23 07:06]  cmdoptions.py
+    │           │   │   │   ├── [ 774 Apr 23 07:06]  command_context.py
+    │           │   │   │   ├── [2.8K Apr 23 07:06]  main.py
+    │           │   │   │   ├── [4.2K Apr 23 07:06]  main_parser.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  parser.py
+    │           │   │   │   ├── [1.9K Apr 23 07:06]  progress_bars.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  req_command.py
+    │           │   │   │   ├── [5.0K Apr 23 07:06]  spinners.py
+    │           │   │   │   └── [ 116 Apr 23 07:06]  status_codes.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  commands
+    │           │   │   │   ├── [3.8K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [7.8K Apr 23 07:06]  cache.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  check.py
+    │           │   │   │   ├── [4.2K Apr 23 07:06]  completion.py
+    │           │   │   │   ├── [9.5K Apr 23 07:06]  configuration.py
+    │           │   │   │   ├── [6.6K Apr 23 07:06]  debug.py
+    │           │   │   │   ├── [5.2K Apr 23 07:06]  download.py
+    │           │   │   │   ├── [3.2K Apr 23 07:06]  freeze.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  hash.py
+    │           │   │   │   ├── [1.1K Apr 23 07:06]  help.py
+    │           │   │   │   ├── [4.7K Apr 23 07:06]  index.py
+    │           │   │   │   ├── [3.1K Apr 23 07:06]  inspect.py
+    │           │   │   │   ├── [ 28K Apr 23 07:06]  install.py
+    │           │   │   │   ├── [ 12K Apr 23 07:06]  list.py
+    │           │   │   │   ├── [5.6K Apr 23 07:06]  search.py
+    │           │   │   │   ├── [6.3K Apr 23 07:06]  show.py
+    │           │   │   │   ├── [3.8K Apr 23 07:06]  uninstall.py
+    │           │   │   │   └── [6.3K Apr 23 07:06]  wheel.py
+    │           │   │   ├── [ 14K Apr 23 07:06]  configuration.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  distributions
+    │           │   │   │   ├── [ 858 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  base.py
+    │           │   │   │   ├── [ 842 Apr 23 07:06]  installed.py
+    │           │   │   │   ├── [6.6K Apr 23 07:06]  sdist.py
+    │           │   │   │   └── [1.2K Apr 23 07:06]  wheel.py
+    │           │   │   ├── [ 23K Apr 23 07:06]  exceptions.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  index
+    │           │   │   │   ├── [  30 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 16K Apr 23 07:06]  collector.py
+    │           │   │   │   ├── [ 37K Apr 23 07:06]  package_finder.py
+    │           │   │   │   └── [8.5K Apr 23 07:06]  sources.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  locations
+    │           │   │   │   ├── [ 15K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [5.9K Apr 23 07:06]  _distutils.py
+    │           │   │   │   ├── [7.5K Apr 23 07:06]  _sysconfig.py
+    │           │   │   │   └── [2.5K Apr 23 07:06]  base.py
+    │           │   │   ├── [ 340 Apr 23 07:06]  main.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  metadata
+    │           │   │   │   ├── [4.2K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [2.6K Apr 23 07:06]  _json.py
+    │           │   │   │   ├── [ 25K Apr 23 07:06]  base.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  importlib
+    │           │   │   │   │   ├── [ 135 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [1.8K Apr 23 07:06]  _compat.py
+    │           │   │   │   │   ├── [8.1K Apr 23 07:06]  _dists.py
+    │           │   │   │   │   └── [7.3K Apr 23 07:06]  _envs.py
+    │           │   │   │   └── [9.8K Apr 23 07:06]  pkg_resources.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  models
+    │           │   │   │   ├── [  63 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 931 Apr 23 07:06]  candidate.py
+    │           │   │   │   ├── [6.7K Apr 23 07:06]  direct_url.py
+    │           │   │   │   ├── [2.4K Apr 23 07:06]  format_control.py
+    │           │   │   │   ├── [1.0K Apr 23 07:06]  index.py
+    │           │   │   │   ├── [2.8K Apr 23 07:06]  installation_report.py
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  link.py
+    │           │   │   │   ├── [ 738 Apr 23 07:06]  scheme.py
+    │           │   │   │   ├── [4.5K Apr 23 07:06]  search_scope.py
+    │           │   │   │   ├── [1.9K Apr 23 07:06]  selection_prefs.py
+    │           │   │   │   ├── [4.2K Apr 23 07:06]  target_python.py
+    │           │   │   │   └── [3.5K Apr 23 07:06]  wheel.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  network
+    │           │   │   │   ├── [  50 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  auth.py
+    │           │   │   │   ├── [3.8K Apr 23 07:06]  cache.py
+    │           │   │   │   ├── [5.9K Apr 23 07:06]  download.py
+    │           │   │   │   ├── [7.5K Apr 23 07:06]  lazy_wheel.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  session.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  utils.py
+    │           │   │   │   └── [1.8K Apr 23 07:06]  xmlrpc.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  operations
+    │           │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  build
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [4.7K Apr 23 07:06]  build_tracker.py
+    │           │   │   │   │   ├── [1.4K Apr 23 07:06]  metadata.py
+    │           │   │   │   │   ├── [1.4K Apr 23 07:06]  metadata_editable.py
+    │           │   │   │   │   ├── [2.1K Apr 23 07:06]  metadata_legacy.py
+    │           │   │   │   │   ├── [1.0K Apr 23 07:06]  wheel.py
+    │           │   │   │   │   ├── [1.4K Apr 23 07:06]  wheel_editable.py
+    │           │   │   │   │   └── [3.0K Apr 23 07:06]  wheel_legacy.py
+    │           │   │   │   ├── [6.6K Apr 23 07:06]  check.py
+    │           │   │   │   ├── [9.6K Apr 23 07:06]  freeze.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  install
+    │           │   │   │   │   ├── [  51 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [1.3K Apr 23 07:06]  editable_legacy.py
+    │           │   │   │   │   └── [ 27K Apr 23 07:06]  wheel.py
+    │           │   │   │   └── [ 27K Apr 23 07:06]  prepare.py
+    │           │   │   ├── [7.0K Apr 23 07:06]  pyproject.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  req
+    │           │   │   │   ├── [2.7K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 19K Apr 23 07:06]  constructors.py
+    │           │   │   │   ├── [ 17K Apr 23 07:06]  req_file.py
+    │           │   │   │   ├── [ 35K Apr 23 07:06]  req_install.py
+    │           │   │   │   ├── [4.6K Apr 23 07:06]  req_set.py
+    │           │   │   │   └── [ 24K Apr 23 07:06]  req_uninstall.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  resolution
+    │           │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 583 Apr 23 07:06]  base.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  legacy
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   └── [ 23K Apr 23 07:06]  resolver.py
+    │           │   │   │   └── [4.0K Apr 23 07:06]  resolvelib
+    │           │   │   │       ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │       ├── [5.1K Apr 23 07:06]  base.py
+    │           │   │   │       ├── [ 21K Apr 23 07:06]  candidates.py
+    │           │   │   │       ├── [ 32K Apr 23 07:06]  factory.py
+    │           │   │   │       ├── [5.6K Apr 23 07:06]  found_candidates.py
+    │           │   │   │       ├── [9.6K Apr 23 07:06]  provider.py
+    │           │   │   │       ├── [3.0K Apr 23 07:06]  reporter.py
+    │           │   │   │       ├── [5.6K Apr 23 07:06]  requirements.py
+    │           │   │   │       └── [ 12K Apr 23 07:06]  resolver.py
+    │           │   │   ├── [8.2K Apr 23 07:06]  self_outdated_check.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  utils
+    │           │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [3.3K Apr 23 07:06]  _jaraco_text.py
+    │           │   │   │   ├── [1015 Apr 23 07:06]  _log.py
+    │           │   │   │   ├── [1.6K Apr 23 07:06]  appdirs.py
+    │           │   │   │   ├── [1.8K Apr 23 07:06]  compat.py
+    │           │   │   │   ├── [5.3K Apr 23 07:06]  compatibility_tags.py
+    │           │   │   │   ├── [ 242 Apr 23 07:06]  datetime.py
+    │           │   │   │   ├── [3.5K Apr 23 07:06]  deprecation.py
+    │           │   │   │   ├── [3.1K Apr 23 07:06]  direct_url_helpers.py
+    │           │   │   │   ├── [2.4K Apr 23 07:06]  egg_link.py
+    │           │   │   │   ├── [1.1K Apr 23 07:06]  encoding.py
+    │           │   │   │   ├── [3.0K Apr 23 07:06]  entrypoints.py
+    │           │   │   │   ├── [5.0K Apr 23 07:06]  filesystem.py
+    │           │   │   │   ├── [ 716 Apr 23 07:06]  filetypes.py
+    │           │   │   │   ├── [3.0K Apr 23 07:06]  glibc.py
+    │           │   │   │   ├── [5.0K Apr 23 07:06]  hashes.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  logging.py
+    │           │   │   │   ├── [ 23K Apr 23 07:06]  misc.py
+    │           │   │   │   ├── [1.2K Apr 23 07:06]  models.py
+    │           │   │   │   ├── [2.1K Apr 23 07:06]  packaging.py
+    │           │   │   │   ├── [4.3K Apr 23 07:06]  setuptools_build.py
+    │           │   │   │   ├── [9.0K Apr 23 07:06]  subprocess.py
+    │           │   │   │   ├── [9.1K Apr 23 07:06]  temp_dir.py
+    │           │   │   │   ├── [8.6K Apr 23 07:06]  unpacking.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  urls.py
+    │           │   │   │   ├── [3.4K Apr 23 07:06]  virtualenv.py
+    │           │   │   │   └── [4.4K Apr 23 07:06]  wheel.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  vcs
+    │           │   │   │   ├── [ 596 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [3.4K Apr 23 07:06]  bazaar.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  git.py
+    │           │   │   │   ├── [5.1K Apr 23 07:06]  mercurial.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  subversion.py
+    │           │   │   │   └── [ 22K Apr 23 07:06]  versioncontrol.py
+    │           │   │   └── [ 12K Apr 23 07:06]  wheel_builder.py
+    │           │   ├── [4.0K Apr 23 07:06]  _vendor
+    │           │   │   ├── [4.9K Apr 23 07:06]  __init__.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  cachecontrol
+    │           │   │   │   ├── [ 676 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  _cmd.py
+    │           │   │   │   ├── [6.2K Apr 23 07:06]  adapter.py
+    │           │   │   │   ├── [1.9K Apr 23 07:06]  cache.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  caches
+    │           │   │   │   │   ├── [ 303 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [5.2K Apr 23 07:06]  file_cache.py
+    │           │   │   │   │   └── [1.4K Apr 23 07:06]  redis_cache.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  controller.py
+    │           │   │   │   ├── [4.2K Apr 23 07:06]  filewrapper.py
+    │           │   │   │   ├── [4.7K Apr 23 07:06]  heuristics.py
+    │           │   │   │   ├── [7.0K Apr 23 07:06]  serialize.py
+    │           │   │   │   └── [1.4K Apr 23 07:06]  wrapper.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  certifi
+    │           │   │   │   ├── [  94 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 255 Apr 23 07:06]  __main__.py
+    │           │   │   │   ├── [275K Apr 23 07:06]  cacert.pem
+    │           │   │   │   └── [4.4K Apr 23 07:06]  core.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  chardet
+    │           │   │   │   ├── [4.7K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 31K Apr 23 07:06]  big5freq.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  big5prober.py
+    │           │   │   │   ├── [9.8K Apr 23 07:06]  chardistribution.py
+    │           │   │   │   ├── [3.8K Apr 23 07:06]  charsetgroupprober.py
+    │           │   │   │   ├── [5.3K Apr 23 07:06]  charsetprober.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  cli
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   └── [3.2K Apr 23 07:06]  chardetect.py
+    │           │   │   │   ├── [3.6K Apr 23 07:06]  codingstatemachine.py
+    │           │   │   │   ├── [ 542 Apr 23 07:06]  codingstatemachinedict.py
+    │           │   │   │   ├── [1.8K Apr 23 07:06]  cp949prober.py
+    │           │   │   │   ├── [1.6K Apr 23 07:06]  enums.py
+    │           │   │   │   ├── [3.9K Apr 23 07:06]  escprober.py
+    │           │   │   │   ├── [ 12K Apr 23 07:06]  escsm.py
+    │           │   │   │   ├── [3.8K Apr 23 07:06]  eucjpprober.py
+    │           │   │   │   ├── [ 13K Apr 23 07:06]  euckrfreq.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  euckrprober.py
+    │           │   │   │   ├── [ 36K Apr 23 07:06]  euctwfreq.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  euctwprober.py
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  gb2312freq.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  gb2312prober.py
+    │           │   │   │   ├── [ 14K Apr 23 07:06]  hebrewprober.py
+    │           │   │   │   ├── [ 25K Apr 23 07:06]  jisfreq.py
+    │           │   │   │   ├── [ 42K Apr 23 07:06]  johabfreq.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  johabprober.py
+    │           │   │   │   ├── [ 26K Apr 23 07:06]  jpcntx.py
+    │           │   │   │   ├── [102K Apr 23 07:06]  langbulgarianmodel.py
+    │           │   │   │   ├── [ 96K Apr 23 07:06]  langgreekmodel.py
+    │           │   │   │   ├── [ 96K Apr 23 07:06]  langhebrewmodel.py
+    │           │   │   │   ├── [ 99K Apr 23 07:06]  langhungarianmodel.py
+    │           │   │   │   ├── [125K Apr 23 07:06]  langrussianmodel.py
+    │           │   │   │   ├── [100K Apr 23 07:06]  langthaimodel.py
+    │           │   │   │   ├── [ 93K Apr 23 07:06]  langturkishmodel.py
+    │           │   │   │   ├── [5.3K Apr 23 07:06]  latin1prober.py
+    │           │   │   │   ├── [5.9K Apr 23 07:06]  macromanprober.py
+    │           │   │   │   ├── [3.6K Apr 23 07:06]  mbcharsetprober.py
+    │           │   │   │   ├── [2.1K Apr 23 07:06]  mbcsgroupprober.py
+    │           │   │   │   ├── [ 30K Apr 23 07:06]  mbcssm.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  metadata
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   └── [ 13K Apr 23 07:06]  languages.py
+    │           │   │   │   ├── [ 402 Apr 23 07:06]  resultdict.py
+    │           │   │   │   ├── [6.2K Apr 23 07:06]  sbcharsetprober.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  sbcsgroupprober.py
+    │           │   │   │   ├── [3.9K Apr 23 07:06]  sjisprober.py
+    │           │   │   │   ├── [ 14K Apr 23 07:06]  universaldetector.py
+    │           │   │   │   ├── [8.3K Apr 23 07:06]  utf1632prober.py
+    │           │   │   │   ├── [2.7K Apr 23 07:06]  utf8prober.py
+    │           │   │   │   └── [ 244 Apr 23 07:06]  version.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  colorama
+    │           │   │   │   ├── [ 266 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [2.5K Apr 23 07:06]  ansi.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  ansitowin32.py
+    │           │   │   │   ├── [3.2K Apr 23 07:06]  initialise.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  tests
+    │           │   │   │   │   ├── [  75 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [2.8K Apr 23 07:06]  ansi_test.py
+    │           │   │   │   │   ├── [ 10K Apr 23 07:06]  ansitowin32_test.py
+    │           │   │   │   │   ├── [6.6K Apr 23 07:06]  initialise_test.py
+    │           │   │   │   │   ├── [1.8K Apr 23 07:06]  isatty_test.py
+    │           │   │   │   │   ├── [1.1K Apr 23 07:06]  utils.py
+    │           │   │   │   │   └── [3.6K Apr 23 07:06]  winterm_test.py
+    │           │   │   │   ├── [6.0K Apr 23 07:06]  win32.py
+    │           │   │   │   └── [7.0K Apr 23 07:06]  winterm.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  distlib
+    │           │   │   │   ├── [ 625 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 41K Apr 23 07:06]  compat.py
+    │           │   │   │   ├── [ 51K Apr 23 07:06]  database.py
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  index.py
+    │           │   │   │   ├── [ 51K Apr 23 07:06]  locators.py
+    │           │   │   │   ├── [ 14K Apr 23 07:06]  manifest.py
+    │           │   │   │   ├── [5.1K Apr 23 07:06]  markers.py
+    │           │   │   │   ├── [ 39K Apr 23 07:06]  metadata.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  resources.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  scripts.py
+    │           │   │   │   ├── [ 66K Apr 23 07:06]  util.py
+    │           │   │   │   ├── [ 23K Apr 23 07:06]  version.py
+    │           │   │   │   └── [ 43K Apr 23 07:06]  wheel.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  distro
+    │           │   │   │   ├── [ 981 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [  64 Apr 23 07:06]  __main__.py
+    │           │   │   │   └── [ 48K Apr 23 07:06]  distro.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  idna
+    │           │   │   │   ├── [ 849 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [3.3K Apr 23 07:06]  codec.py
+    │           │   │   │   ├── [ 321 Apr 23 07:06]  compat.py
+    │           │   │   │   ├── [ 13K Apr 23 07:06]  core.py
+    │           │   │   │   ├── [ 43K Apr 23 07:06]  idnadata.py
+    │           │   │   │   ├── [1.8K Apr 23 07:06]  intranges.py
+    │           │   │   │   ├── [  21 Apr 23 07:06]  package_data.py
+    │           │   │   │   └── [202K Apr 23 07:06]  uts46data.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  msgpack
+    │           │   │   │   ├── [1.1K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [1.1K Apr 23 07:06]  exceptions.py
+    │           │   │   │   ├── [5.9K Apr 23 07:06]  ext.py
+    │           │   │   │   └── [ 34K Apr 23 07:06]  fallback.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  packaging
+    │           │   │   │   ├── [ 661 Apr 23 07:06]  __about__.py
+    │           │   │   │   ├── [ 497 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  _manylinux.py
+    │           │   │   │   ├── [4.3K Apr 23 07:06]  _musllinux.py
+    │           │   │   │   ├── [1.4K Apr 23 07:06]  _structures.py
+    │           │   │   │   ├── [8.3K Apr 23 07:06]  markers.py
+    │           │   │   │   ├── [4.6K Apr 23 07:06]  requirements.py
+    │           │   │   │   ├── [ 29K Apr 23 07:06]  specifiers.py
+    │           │   │   │   ├── [ 15K Apr 23 07:06]  tags.py
+    │           │   │   │   ├── [4.1K Apr 23 07:06]  utils.py
+    │           │   │   │   └── [ 14K Apr 23 07:06]  version.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  pkg_resources
+    │           │   │   │   └── [107K Apr 23 07:06]  __init__.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  platformdirs
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [1.4K Apr 23 07:06]  __main__.py
+    │           │   │   │   ├── [7.0K Apr 23 07:06]  android.py
+    │           │   │   │   ├── [7.0K Apr 23 07:06]  api.py
+    │           │   │   │   ├── [3.6K Apr 23 07:06]  macos.py
+    │           │   │   │   ├── [8.6K Apr 23 07:06]  unix.py
+    │           │   │   │   ├── [ 160 Apr 23 07:06]  version.py
+    │           │   │   │   └── [9.3K Apr 23 07:06]  windows.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  pygments
+    │           │   │   │   ├── [2.9K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 353 Apr 23 07:06]  __main__.py
+    │           │   │   │   ├── [ 23K Apr 23 07:06]  cmdline.py
+    │           │   │   │   ├── [1.7K Apr 23 07:06]  console.py
+    │           │   │   │   ├── [1.9K Apr 23 07:06]  filter.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  filters
+    │           │   │   │   │   └── [ 39K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [4.1K Apr 23 07:06]  formatter.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  formatters
+    │           │   │   │   │   ├── [5.3K Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [4.1K Apr 23 07:06]  _mapping.py
+    │           │   │   │   │   ├── [3.2K Apr 23 07:06]  bbcode.py
+    │           │   │   │   │   ├── [5.0K Apr 23 07:06]  groff.py
+    │           │   │   │   │   ├── [ 35K Apr 23 07:06]  html.py
+    │           │   │   │   │   ├── [ 21K Apr 23 07:06]  img.py
+    │           │   │   │   │   ├── [4.9K Apr 23 07:06]  irc.py
+    │           │   │   │   │   ├── [ 19K Apr 23 07:06]  latex.py
+    │           │   │   │   │   ├── [5.0K Apr 23 07:06]  other.py
+    │           │   │   │   │   ├── [2.2K Apr 23 07:06]  pangomarkup.py
+    │           │   │   │   │   ├── [4.9K Apr 23 07:06]  rtf.py
+    │           │   │   │   │   ├── [7.2K Apr 23 07:06]  svg.py
+    │           │   │   │   │   ├── [4.6K Apr 23 07:06]  terminal.py
+    │           │   │   │   │   └── [ 11K Apr 23 07:06]  terminal256.py
+    │           │   │   │   ├── [ 34K Apr 23 07:06]  lexer.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  lexers
+    │           │   │   │   │   ├── [ 12K Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [ 71K Apr 23 07:06]  _mapping.py
+    │           │   │   │   │   └── [ 52K Apr 23 07:06]  python.py
+    │           │   │   │   ├── [ 986 Apr 23 07:06]  modeline.py
+    │           │   │   │   ├── [2.5K Apr 23 07:06]  plugin.py
+    │           │   │   │   ├── [3.0K Apr 23 07:06]  regexopt.py
+    │           │   │   │   ├── [3.0K Apr 23 07:06]  scanner.py
+    │           │   │   │   ├── [6.7K Apr 23 07:06]  sphinxext.py
+    │           │   │   │   ├── [6.1K Apr 23 07:06]  style.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  styles
+    │           │   │   │   │   └── [3.6K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [6.0K Apr 23 07:06]  token.py
+    │           │   │   │   ├── [ 62K Apr 23 07:06]  unistring.py
+    │           │   │   │   └── [10.0K Apr 23 07:06]  util.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  pyparsing
+    │           │   │   │   ├── [8.9K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [6.4K Apr 23 07:06]  actions.py
+    │           │   │   │   ├── [ 13K Apr 23 07:06]  common.py
+    │           │   │   │   ├── [219K Apr 23 07:06]  core.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  diagram
+    │           │   │   │   │   └── [ 24K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [9.3K Apr 23 07:06]  exceptions.py
+    │           │   │   │   ├── [ 38K Apr 23 07:06]  helpers.py
+    │           │   │   │   ├── [ 26K Apr 23 07:06]  results.py
+    │           │   │   │   ├── [ 13K Apr 23 07:06]  testing.py
+    │           │   │   │   ├── [ 10K Apr 23 07:06]  unicode.py
+    │           │   │   │   └── [8.5K Apr 23 07:06]  util.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  pyproject_hooks
+    │           │   │   │   ├── [ 491 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 138 Apr 23 07:06]  _compat.py
+    │           │   │   │   ├── [ 12K Apr 23 07:06]  _impl.py
+    │           │   │   │   └── [4.0K Apr 23 07:06]  _in_process
+    │           │   │   │       ├── [ 546 Apr 23 07:06]  __init__.py
+    │           │   │   │       └── [ 11K Apr 23 07:06]  _in_process.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  requests
+    │           │   │   │   ├── [5.0K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 435 Apr 23 07:06]  __version__.py
+    │           │   │   │   ├── [1.5K Apr 23 07:06]  _internal_utils.py
+    │           │   │   │   ├── [ 19K Apr 23 07:06]  adapters.py
+    │           │   │   │   ├── [6.3K Apr 23 07:06]  api.py
+    │           │   │   │   ├── [9.9K Apr 23 07:06]  auth.py
+    │           │   │   │   ├── [ 575 Apr 23 07:06]  certs.py
+    │           │   │   │   ├── [1.3K Apr 23 07:06]  compat.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  cookies.py
+    │           │   │   │   ├── [3.7K Apr 23 07:06]  exceptions.py
+    │           │   │   │   ├── [3.8K Apr 23 07:06]  help.py
+    │           │   │   │   ├── [ 733 Apr 23 07:06]  hooks.py
+    │           │   │   │   ├── [ 34K Apr 23 07:06]  models.py
+    │           │   │   │   ├── [ 695 Apr 23 07:06]  packages.py
+    │           │   │   │   ├── [ 30K Apr 23 07:06]  sessions.py
+    │           │   │   │   ├── [4.1K Apr 23 07:06]  status_codes.py
+    │           │   │   │   ├── [2.8K Apr 23 07:06]  structures.py
+    │           │   │   │   └── [ 33K Apr 23 07:06]  utils.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  resolvelib
+    │           │   │   │   ├── [ 537 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  compat
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   └── [ 156 Apr 23 07:06]  collections_abc.py
+    │           │   │   │   ├── [5.7K Apr 23 07:06]  providers.py
+    │           │   │   │   ├── [1.6K Apr 23 07:06]  reporters.py
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  resolvers.py
+    │           │   │   │   └── [4.8K Apr 23 07:06]  structs.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  rich
+    │           │   │   │   ├── [5.9K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [8.3K Apr 23 07:06]  __main__.py
+    │           │   │   │   ├── [9.9K Apr 23 07:06]  _cell_widths.py
+    │           │   │   │   ├── [137K Apr 23 07:06]  _emoji_codes.py
+    │           │   │   │   ├── [1.0K Apr 23 07:06]  _emoji_replace.py
+    │           │   │   │   ├── [2.1K Apr 23 07:06]  _export_format.py
+    │           │   │   │   ├── [ 265 Apr 23 07:06]  _extension.py
+    │           │   │   │   ├── [ 799 Apr 23 07:06]  _fileno.py
+    │           │   │   │   ├── [9.5K Apr 23 07:06]  _inspect.py
+    │           │   │   │   ├── [3.1K Apr 23 07:06]  _log_render.py
+    │           │   │   │   ├── [1.2K Apr 23 07:06]  _loop.py
+    │           │   │   │   ├── [1.4K Apr 23 07:06]  _null_file.py
+    │           │   │   │   ├── [6.9K Apr 23 07:06]  _palettes.py
+    │           │   │   │   ├── [ 423 Apr 23 07:06]  _pick.py
+    │           │   │   │   ├── [5.3K Apr 23 07:06]  _ratio.py
+    │           │   │   │   ├── [ 19K Apr 23 07:06]  _spinners.py
+    │           │   │   │   ├── [ 351 Apr 23 07:06]  _stack.py
+    │           │   │   │   ├── [ 417 Apr 23 07:06]  _timer.py
+    │           │   │   │   ├── [ 22K Apr 23 07:06]  _win32_console.py
+    │           │   │   │   ├── [1.9K Apr 23 07:06]  _windows.py
+    │           │   │   │   ├── [2.7K Apr 23 07:06]  _windows_renderer.py
+    │           │   │   │   ├── [1.8K Apr 23 07:06]  _wrap.py
+    │           │   │   │   ├── [ 890 Apr 23 07:06]  abc.py
+    │           │   │   │   ├── [ 10K Apr 23 07:06]  align.py
+    │           │   │   │   ├── [6.7K Apr 23 07:06]  ansi.py
+    │           │   │   │   ├── [3.2K Apr 23 07:06]  bar.py
+    │           │   │   │   ├── [9.6K Apr 23 07:06]  box.py
+    │           │   │   │   ├── [4.4K Apr 23 07:06]  cells.py
+    │           │   │   │   ├── [ 18K Apr 23 07:06]  color.py
+    │           │   │   │   ├── [1.0K Apr 23 07:06]  color_triplet.py
+    │           │   │   │   ├── [7.0K Apr 23 07:06]  columns.py
+    │           │   │   │   ├── [ 97K Apr 23 07:06]  console.py
+    │           │   │   │   ├── [1.3K Apr 23 07:06]  constrain.py
+    │           │   │   │   ├── [5.4K Apr 23 07:06]  containers.py
+    │           │   │   │   ├── [6.5K Apr 23 07:06]  control.py
+    │           │   │   │   ├── [7.9K Apr 23 07:06]  default_styles.py
+    │           │   │   │   ├── [ 972 Apr 23 07:06]  diagnose.py
+    │           │   │   │   ├── [2.4K Apr 23 07:06]  emoji.py
+    │           │   │   │   ├── [ 642 Apr 23 07:06]  errors.py
+    │           │   │   │   ├── [1.6K Apr 23 07:06]  file_proxy.py
+    │           │   │   │   ├── [2.4K Apr 23 07:06]  filesize.py
+    │           │   │   │   ├── [9.4K Apr 23 07:06]  highlighter.py
+    │           │   │   │   ├── [4.9K Apr 23 07:06]  json.py
+    │           │   │   │   ├── [3.2K Apr 23 07:06]  jupyter.py
+    │           │   │   │   ├── [ 14K Apr 23 07:06]  layout.py
+    │           │   │   │   ├── [ 14K Apr 23 07:06]  live.py
+    │           │   │   │   ├── [3.6K Apr 23 07:06]  live_render.py
+    │           │   │   │   ├── [ 12K Apr 23 07:06]  logging.py
+    │           │   │   │   ├── [8.0K Apr 23 07:06]  markup.py
+    │           │   │   │   ├── [5.2K Apr 23 07:06]  measure.py
+    │           │   │   │   ├── [4.9K Apr 23 07:06]  padding.py
+    │           │   │   │   ├── [ 828 Apr 23 07:06]  pager.py
+    │           │   │   │   ├── [3.3K Apr 23 07:06]  palette.py
+    │           │   │   │   ├── [ 10K Apr 23 07:06]  panel.py
+    │           │   │   │   ├── [ 35K Apr 23 07:06]  pretty.py
+    │           │   │   │   ├── [ 58K Apr 23 07:06]  progress.py
+    │           │   │   │   ├── [8.0K Apr 23 07:06]  progress_bar.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  prompt.py
+    │           │   │   │   ├── [1.4K Apr 23 07:06]  protocol.py
+    │           │   │   │   ├── [ 166 Apr 23 07:06]  region.py
+    │           │   │   │   ├── [4.3K Apr 23 07:06]  repr.py
+    │           │   │   │   ├── [4.5K Apr 23 07:06]  rule.py
+    │           │   │   │   ├── [2.8K Apr 23 07:06]  scope.py
+    │           │   │   │   ├── [1.6K Apr 23 07:06]  screen.py
+    │           │   │   │   ├── [ 24K Apr 23 07:06]  segment.py
+    │           │   │   │   ├── [4.2K Apr 23 07:06]  spinner.py
+    │           │   │   │   ├── [4.3K Apr 23 07:06]  status.py
+    │           │   │   │   ├── [ 26K Apr 23 07:06]  style.py
+    │           │   │   │   ├── [1.2K Apr 23 07:06]  styled.py
+    │           │   │   │   ├── [ 34K Apr 23 07:06]  syntax.py
+    │           │   │   │   ├── [ 39K Apr 23 07:06]  table.py
+    │           │   │   │   ├── [3.3K Apr 23 07:06]  terminal_theme.py
+    │           │   │   │   ├── [ 44K Apr 23 07:06]  text.py
+    │           │   │   │   ├── [3.7K Apr 23 07:06]  theme.py
+    │           │   │   │   ├── [ 102 Apr 23 07:06]  themes.py
+    │           │   │   │   ├── [ 29K Apr 23 07:06]  traceback.py
+    │           │   │   │   └── [9.0K Apr 23 07:06]  tree.py
+    │           │   │   ├── [ 34K Apr 23 07:06]  six.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  tenacity
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [3.5K Apr 23 07:06]  _asyncio.py
+    │           │   │   │   ├── [2.1K Apr 23 07:06]  _utils.py
+    │           │   │   │   ├── [1.6K Apr 23 07:06]  after.py
+    │           │   │   │   ├── [1.5K Apr 23 07:06]  before.py
+    │           │   │   │   ├── [2.3K Apr 23 07:06]  before_sleep.py
+    │           │   │   │   ├── [1.4K Apr 23 07:06]  nap.py
+    │           │   │   │   ├── [8.5K Apr 23 07:06]  retry.py
+    │           │   │   │   ├── [3.0K Apr 23 07:06]  stop.py
+    │           │   │   │   ├── [2.1K Apr 23 07:06]  tornadoweb.py
+    │           │   │   │   └── [7.8K Apr 23 07:06]  wait.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  tomli
+    │           │   │   │   ├── [ 396 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 22K Apr 23 07:06]  _parser.py
+    │           │   │   │   ├── [2.9K Apr 23 07:06]  _re.py
+    │           │   │   │   └── [ 254 Apr 23 07:06]  _types.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  truststore
+    │           │   │   │   ├── [ 403 Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [9.7K Apr 23 07:06]  _api.py
+    │           │   │   │   ├── [ 17K Apr 23 07:06]  _macos.py
+    │           │   │   │   ├── [2.3K Apr 23 07:06]  _openssl.py
+    │           │   │   │   ├── [1.1K Apr 23 07:06]  _ssl_constants.py
+    │           │   │   │   └── [ 17K Apr 23 07:06]  _windows.py
+    │           │   │   ├── [109K Apr 23 07:06]  typing_extensions.py
+    │           │   │   ├── [4.0K Apr 23 07:06]  urllib3
+    │           │   │   │   ├── [3.3K Apr 23 07:06]  __init__.py
+    │           │   │   │   ├── [ 11K Apr 23 07:06]  _collections.py
+    │           │   │   │   ├── [  64 Apr 23 07:06]  _version.py
+    │           │   │   │   ├── [ 20K Apr 23 07:06]  connection.py
+    │           │   │   │   ├── [ 39K Apr 23 07:06]  connectionpool.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  contrib
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [ 957 Apr 23 07:06]  _appengine_environ.py
+    │           │   │   │   │   ├── [4.0K Apr 23 07:06]  _securetransport
+    │           │   │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   │   ├── [ 17K Apr 23 07:06]  bindings.py
+    │           │   │   │   │   │   └── [ 14K Apr 23 07:06]  low_level.py
+    │           │   │   │   │   ├── [ 11K Apr 23 07:06]  appengine.py
+    │           │   │   │   │   ├── [4.4K Apr 23 07:06]  ntlmpool.py
+    │           │   │   │   │   ├── [ 17K Apr 23 07:06]  pyopenssl.py
+    │           │   │   │   │   ├── [ 34K Apr 23 07:06]  securetransport.py
+    │           │   │   │   │   └── [6.9K Apr 23 07:06]  socks.py
+    │           │   │   │   ├── [8.0K Apr 23 07:06]  exceptions.py
+    │           │   │   │   ├── [8.4K Apr 23 07:06]  fields.py
+    │           │   │   │   ├── [2.4K Apr 23 07:06]  filepost.py
+    │           │   │   │   ├── [4.0K Apr 23 07:06]  packages
+    │           │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   ├── [4.0K Apr 23 07:06]  backports
+    │           │   │   │   │   │   ├── [   0 Apr 23 07:06]  __init__.py
+    │           │   │   │   │   │   ├── [1.4K Apr 23 07:06]  makefile.py
+    │           │   │   │   │   │   └── [5.2K Apr 23 07:06]  weakref_finalize.py
+    │           │   │   │   │   └── [ 34K Apr 23 07:06]  six.py
+    │           │   │   │   ├── [ 19K Apr 23 07:06]  poolmanager.py
+    │           │   │   │   ├── [6.5K Apr 23 07:06]  request.py
+    │           │   │   │   ├── [ 30K Apr 23 07:06]  response.py
+    │           │   │   │   └── [4.0K Apr 23 07:06]  util
+    │           │   │   │       ├── [1.1K Apr 23 07:06]  __init__.py
+    │           │   │   │       ├── [4.8K Apr 23 07:06]  connection.py
+    │           │   │   │       ├── [1.6K Apr 23 07:06]  proxy.py
+    │           │   │   │       ├── [ 498 Apr 23 07:06]  queue.py
+    │           │   │   │       ├── [3.9K Apr 23 07:06]  request.py
+    │           │   │   │       ├── [3.4K Apr 23 07:06]  response.py
+    │           │   │   │       ├── [ 22K Apr 23 07:06]  retry.py
+    │           │   │   │       ├── [ 17K Apr 23 07:06]  ssl_.py
+    │           │   │   │       ├── [5.6K Apr 23 07:06]  ssl_match_hostname.py
+    │           │   │   │       ├── [6.7K Apr 23 07:06]  ssltransport.py
+    │           │   │   │       ├── [9.9K Apr 23 07:06]  timeout.py
+    │           │   │   │       ├── [ 14K Apr 23 07:06]  url.py
+    │           │   │   │       └── [5.3K Apr 23 07:06]  wait.py
+    │           │   │   ├── [ 493 Apr 23 07:06]  vendor.txt
+    │           │   │   └── [4.0K Apr 23 07:06]  webencodings
+    │           │   │       ├── [ 10K Apr 23 07:06]  __init__.py
+    │           │   │       ├── [8.8K Apr 23 07:06]  labels.py
+    │           │   │       ├── [1.3K Apr 23 07:06]  mklabels.py
+    │           │   │       ├── [6.4K Apr 23 07:06]  tests.py
+    │           │   │       └── [4.2K Apr 23 07:06]  x_user_defined.py
+    │           │   └── [ 286 Apr 23 07:06]  py.typed
+    │           ├── [4.0K Apr 23 07:06]  pip-24.0.dist-info
+    │           │   ├── [ 10K Apr 23 07:06]  AUTHORS.txt
+    │           │   ├── [   4 Apr 23 07:06]  INSTALLER
+    │           │   ├── [1.1K Apr 23 07:06]  LICENSE.txt
+    │           │   ├── [3.5K Apr 23 07:06]  METADATA
+    │           │   ├── [ 76K Apr 23 07:06]  RECORD
+    │           │   ├── [   0 Apr 23 07:06]  REQUESTED
+    │           │   ├── [  92 Apr 23 07:06]  WHEEL
+    │           │   ├── [ 125 Apr 23 07:06]  entry_points.txt
+    │           │   └── [   4 Apr 23 07:06]  top_level.txt
+    │           ├── [4.0K Apr 23 07:52]  pyttsx3
+    │           │   ├── [ 782 Apr 23 07:52]  __init__.py
+    │           │   ├── [6.6K Apr 23 07:52]  driver.py
+    │           │   ├── [4.0K Apr 23 07:52]  drivers
+    │           │   │   ├── [ 830 Apr 23 07:52]  __init__.py
+    │           │   │   ├── [ 18K Apr 23 07:52]  _espeak.py
+    │           │   │   ├── [5.9K Apr 23 07:52]  dummy.py
+    │           │   │   ├── [8.3K Apr 23 07:52]  espeak.py
+    │           │   │   ├── [5.4K Apr 23 07:52]  nsss.py
+    │           │   │   └── [6.3K Apr 23 07:52]  sapi5.py
+    │           │   ├── [6.8K Apr 23 07:52]  engine.py
+    │           │   ├── [ 28K Apr 23 07:52]  six.py
+    │           │   └── [ 417 Apr 23 07:52]  voice.py
+    │           ├── [4.0K Apr 23 07:52]  pyttsx3-2.98.dist-info
+    │           │   ├── [   4 Apr 23 07:52]  INSTALLER
+    │           │   ├── [ 16K Apr 23 07:52]  LICENSE
+    │           │   ├── [3.7K Apr 23 07:52]  METADATA
+    │           │   ├── [1.9K Apr 23 07:52]  RECORD
+    │           │   ├── [   0 Apr 23 07:52]  REQUESTED
+    │           │   ├── [  91 Apr 23 07:52]  WHEEL
+    │           │   └── [   8 Apr 23 07:52]  top_level.txt
+    │           ├── [4.0K Apr 24 11:05]  requests
+    │           │   ├── [5.0K Apr 24 11:05]  __init__.py
+    │           │   ├── [ 435 Apr 24 11:05]  __version__.py
+    │           │   ├── [1.5K Apr 24 11:05]  _internal_utils.py
+    │           │   ├── [ 27K Apr 24 11:05]  adapters.py
+    │           │   ├── [6.3K Apr 24 11:05]  api.py
+    │           │   ├── [9.9K Apr 24 11:05]  auth.py
+    │           │   ├── [ 429 Apr 24 11:05]  certs.py
+    │           │   ├── [1.8K Apr 24 11:05]  compat.py
+    │           │   ├── [ 18K Apr 24 11:05]  cookies.py
+    │           │   ├── [4.2K Apr 24 11:05]  exceptions.py
+    │           │   ├── [3.8K Apr 24 11:05]  help.py
+    │           │   ├── [ 733 Apr 24 11:05]  hooks.py
+    │           │   ├── [ 35K Apr 24 11:05]  models.py
+    │           │   ├── [ 904 Apr 24 11:05]  packages.py
+    │           │   ├── [ 30K Apr 24 11:05]  sessions.py
+    │           │   ├── [4.2K Apr 24 11:05]  status_codes.py
+    │           │   ├── [2.8K Apr 24 11:05]  structures.py
+    │           │   └── [ 33K Apr 24 11:05]  utils.py
+    │           ├── [4.0K Apr 24 11:05]  requests-2.32.3.dist-info
+    │           │   ├── [   4 Apr 24 11:05]  INSTALLER
+    │           │   ├── [9.9K Apr 24 11:05]  LICENSE
+    │           │   ├── [4.5K Apr 24 11:05]  METADATA
+    │           │   ├── [2.8K Apr 24 11:05]  RECORD
+    │           │   ├── [   0 Apr 24 11:05]  REQUESTED
+    │           │   ├── [  92 Apr 24 11:05]  WHEEL
+    │           │   └── [   9 Apr 24 11:05]  top_level.txt
+    │           ├── [4.0K Apr 24 18:59]  soupsieve
+    │           │   ├── [4.5K Apr 24 18:59]  __init__.py
+    │           │   ├── [6.6K Apr 24 18:59]  __meta__.py
+    │           │   ├── [ 59K Apr 24 18:59]  css_match.py
+    │           │   ├── [ 46K Apr 24 18:59]  css_parser.py
+    │           │   ├── [10.0K Apr 24 18:59]  css_types.py
+    │           │   ├── [3.9K Apr 24 18:59]  pretty.py
+    │           │   ├── [   0 Apr 24 18:59]  py.typed
+    │           │   └── [3.3K Apr 24 18:59]  util.py
+    │           ├── [4.0K Apr 24 18:59]  soupsieve-2.7.dist-info
+    │           │   ├── [   4 Apr 24 18:59]  INSTALLER
+    │           │   ├── [4.5K Apr 24 18:59]  METADATA
+    │           │   ├── [1.3K Apr 24 18:59]  RECORD
+    │           │   ├── [  87 Apr 24 18:59]  WHEEL
+    │           │   └── [4.0K Apr 24 18:59]  licenses
+    │           │       └── [1.1K Apr 24 18:59]  LICENSE.md
+    │           ├── [4.0K Apr 24 18:59]  typing_extensions-4.13.2.dist-info
+    │           │   ├── [   4 Apr 24 18:59]  INSTALLER
+    │           │   ├── [2.9K Apr 24 18:59]  METADATA
+    │           │   ├── [ 580 Apr 24 18:59]  RECORD
+    │           │   ├── [  82 Apr 24 18:59]  WHEEL
+    │           │   └── [4.0K Apr 24 18:59]  licenses
+    │           │       └── [ 14K Apr 24 18:59]  LICENSE
+    │           ├── [169K Apr 24 18:59]  typing_extensions.py
+    │           ├── [4.0K Apr 24 11:05]  urllib3
+    │           │   ├── [6.8K Apr 24 11:05]  __init__.py
+    │           │   ├── [5.4K Apr 24 11:05]  _base_connection.py
+    │           │   ├── [ 17K Apr 24 11:05]  _collections.py
+    │           │   ├── [9.7K Apr 24 11:05]  _request_methods.py
+    │           │   ├── [ 511 Apr 24 11:05]  _version.py
+    │           │   ├── [ 39K Apr 24 11:05]  connection.py
+    │           │   ├── [ 42K Apr 24 11:05]  connectionpool.py
+    │           │   ├── [4.0K Apr 24 11:05]  contrib
+    │           │   │   ├── [   0 Apr 24 11:05]  __init__.py
+    │           │   │   ├── [4.0K Apr 24 11:05]  emscripten
+    │           │   │   │   ├── [ 733 Apr 24 11:05]  __init__.py
+    │           │   │   │   ├── [8.6K Apr 24 11:05]  connection.py
+    │           │   │   │   ├── [3.6K Apr 24 11:05]  emscripten_fetch_worker.js
+    │           │   │   │   ├── [ 22K Apr 24 11:05]  fetch.py
+    │           │   │   │   ├── [ 566 Apr 24 11:05]  request.py
+    │           │   │   │   └── [9.3K Apr 24 11:05]  response.py
+    │           │   │   ├── [ 19K Apr 24 11:05]  pyopenssl.py
+    │           │   │   └── [7.4K Apr 24 11:05]  socks.py
+    │           │   ├── [9.7K Apr 24 11:05]  exceptions.py
+    │           │   ├── [ 11K Apr 24 11:05]  fields.py
+    │           │   ├── [2.3K Apr 24 11:05]  filepost.py
+    │           │   ├── [4.0K Apr 24 11:05]  http2
+    │           │   │   ├── [1.7K Apr 24 11:05]  __init__.py
+    │           │   │   ├── [ 12K Apr 24 11:05]  connection.py
+    │           │   │   └── [2.9K Apr 24 11:05]  probe.py
+    │           │   ├── [ 22K Apr 24 11:05]  poolmanager.py
+    │           │   ├── [  93 Apr 24 11:05]  py.typed
+    │           │   ├── [ 44K Apr 24 11:05]  response.py
+    │           │   └── [4.0K Apr 24 11:05]  util
+    │           │       ├── [1001 Apr 24 11:05]  __init__.py
+    │           │       ├── [4.3K Apr 24 11:05]  connection.py
+    │           │       ├── [1.1K Apr 24 11:05]  proxy.py
+    │           │       ├── [8.0K Apr 24 11:05]  request.py
+    │           │       ├── [3.3K Apr 24 11:05]  response.py
+    │           │       ├── [ 18K Apr 24 11:05]  retry.py
+    │           │       ├── [ 19K Apr 24 11:05]  ssl_.py
+    │           │       ├── [5.7K Apr 24 11:05]  ssl_match_hostname.py
+    │           │       ├── [8.6K Apr 24 11:05]  ssltransport.py
+    │           │       ├── [ 10K Apr 24 11:05]  timeout.py
+    │           │       ├── [ 15K Apr 24 11:05]  url.py
+    │           │       ├── [1.1K Apr 24 11:05]  util.py
+    │           │       └── [4.3K Apr 24 11:05]  wait.py
+    │           ├── [4.0K Apr 24 11:05]  urllib3-2.4.0.dist-info
+    │           │   ├── [   4 Apr 24 11:05]  INSTALLER
+    │           │   ├── [6.3K Apr 24 11:05]  METADATA
+    │           │   ├── [5.4K Apr 24 11:05]  RECORD
+    │           │   ├── [  87 Apr 24 11:05]  WHEEL
+    │           │   └── [4.0K Apr 24 11:05]  licenses
+    │           │       └── [1.1K Apr 24 11:05]  LICENSE.txt
+    │           ├── [4.0K Apr 23 08:17]  werkzeug
+    │           │   ├── [ 165 Apr 23 08:17]  __init__.py
+    │           │   ├── [5.4K Apr 23 08:17]  _internal.py
+    │           │   ├── [ 15K Apr 23 08:17]  _reloader.py
+    │           │   ├── [4.0K Apr 23 08:17]  datastructures
+    │           │   │   ├── [2.6K Apr 23 08:17]  __init__.py
+    │           │   │   ├── [ 12K Apr 23 08:17]  accept.py
+    │           │   │   ├── [9.8K Apr 23 08:17]  auth.py
+    │           │   │   ├── [9.5K Apr 23 08:17]  cache_control.py
+    │           │   │   ├── [3.7K Apr 23 08:17]  csp.py
+    │           │   │   ├── [3.2K Apr 23 08:17]  etag.py
+    │           │   │   ├── [6.5K Apr 23 08:17]  file_storage.py
+    │           │   │   ├── [ 21K Apr 23 08:17]  headers.py
+    │           │   │   ├── [8.8K Apr 23 08:17]  mixins.py
+    │           │   │   ├── [6.9K Apr 23 08:17]  range.py
+    │           │   │   └── [ 40K Apr 23 08:17]  structures.py
+    │           │   ├── [4.0K Apr 23 08:17]  debug
+    │           │   │   ├── [ 20K Apr 23 08:17]  __init__.py
+    │           │   │   ├── [5.9K Apr 23 08:17]  console.py
+    │           │   │   ├── [9.1K Apr 23 08:17]  repr.py
+    │           │   │   ├── [4.0K Apr 23 08:17]  shared
+    │           │   │   │   ├── [ 222 Apr 23 08:17]  ICON_LICENSE.md
+    │           │   │   │   ├── [ 507 Apr 23 08:17]  console.png
+    │           │   │   │   ├── [9.8K Apr 23 08:17]  debugger.js
+    │           │   │   │   ├── [ 191 Apr 23 08:17]  less.png
+    │           │   │   │   ├── [ 200 Apr 23 08:17]  more.png
+    │           │   │   │   └── [5.9K Apr 23 08:17]  style.css
+    │           │   │   └── [ 13K Apr 23 08:17]  tbtools.py
+    │           │   ├── [ 26K Apr 23 08:17]  exceptions.py
+    │           │   ├── [ 15K Apr 23 08:17]  formparser.py
+    │           │   ├── [ 44K Apr 23 08:17]  http.py
+    │           │   ├── [ 22K Apr 23 08:17]  local.py
+    │           │   ├── [4.0K Apr 23 08:17]  middleware
+    │           │   │   ├── [   0 Apr 23 08:17]  __init__.py
+    │           │   │   ├── [2.5K Apr 23 08:17]  dispatcher.py
+    │           │   │   ├── [7.7K Apr 23 08:17]  http_proxy.py
+    │           │   │   ├── [ 14K Apr 23 08:17]  lint.py
+    │           │   │   ├── [5.4K Apr 23 08:17]  profiler.py
+    │           │   │   ├── [6.6K Apr 23 08:17]  proxy_fix.py
+    │           │   │   └── [9.3K Apr 23 08:17]  shared_data.py
+    │           │   ├── [   0 Apr 23 08:17]  py.typed
+    │           │   ├── [4.0K Apr 23 08:17]  routing
+    │           │   │   ├── [4.7K Apr 23 08:17]  __init__.py
+    │           │   │   ├── [7.1K Apr 23 08:17]  converters.py
+    │           │   │   ├── [4.7K Apr 23 08:17]  exceptions.py
+    │           │   │   ├── [ 36K Apr 23 08:17]  map.py
+    │           │   │   ├── [7.7K Apr 23 08:17]  matcher.py
+    │           │   │   └── [ 32K Apr 23 08:17]  rules.py
+    │           │   ├── [4.0K Apr 23 08:17]  sansio
+    │           │   │   ├── [   0 Apr 23 08:17]  __init__.py
+    │           │   │   ├── [5.2K Apr 23 08:17]  http.py
+    │           │   │   ├── [ 11K Apr 23 08:17]  multipart.py
+    │           │   │   ├── [ 19K Apr 23 08:17]  request.py
+    │           │   │   ├── [ 27K Apr 23 08:17]  response.py
+    │           │   │   └── [5.1K Apr 23 08:17]  utils.py
+    │           │   ├── [5.5K Apr 23 08:17]  security.py
+    │           │   ├── [ 39K Apr 23 08:17]  serving.py
+    │           │   ├── [ 52K Apr 23 08:17]  test.py
+    │           │   ├── [6.2K Apr 23 08:17]  testapp.py
+    │           │   ├── [6.3K Apr 23 08:17]  urls.py
+    │           │   ├── [1.4K Apr 23 08:17]  user_agent.py
+    │           │   ├── [ 24K Apr 23 08:17]  utils.py
+    │           │   ├── [4.0K Apr 23 08:17]  wrappers
+    │           │   │   ├── [ 138 Apr 23 08:17]  __init__.py
+    │           │   │   ├── [ 24K Apr 23 08:17]  request.py
+    │           │   │   └── [ 32K Apr 23 08:17]  response.py
+    │           │   └── [ 20K Apr 23 08:17]  wsgi.py
+    │           └── [4.0K Apr 23 08:17]  werkzeug-3.1.3.dist-info
+    │               ├── [   4 Apr 23 08:17]  INSTALLER
+    │               ├── [1.4K Apr 23 08:17]  LICENSE.txt
+    │               ├── [3.6K Apr 23 08:17]  METADATA
+    │               ├── [8.1K Apr 23 08:17]  RECORD
+    │               └── [  82 Apr 23 08:17]  WHEEL
+    ├── [   3 Apr 23 07:06]  lib64 -> lib
+    └── [ 164 Apr 23 07:06]  pyvenv.cfg
+
+273 directories, 1810 files

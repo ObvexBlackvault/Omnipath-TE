@@ -1,0 +1,64 @@
+##############################################
+# Omnipath - Guardian Triad Operational Checklist
+##############################################
+
+# 1. Launch Agents (each in separate terminal/tab)
+
+cd ~/Omnipath/backend/agents/system/
+python3 archivist.kend/memory/loop_logs/
+
+# Read Guardian system health logs
+cat ~/Omnipath/backend/memory/guardian_watch.json
+
+# Read Commander assignment review logs
+cat ~/Omnipath/backend/memory/commander_watch.json
+
+# 3. Restart Individual Agents (if needed)
+
+# Restart Archivist
+cd ~/Omnipath/backend/agents/system/
+python3 archivist.py
+
+# Restart Commander
+cd ~/Omnipath/backend/agents/system/
+python3 commander.py
+
+# Restart Guardian
+cd ~/Omnipath/backend/agents/system/
+python3 guardian.py
+
+# 4. Edit Agent Code Quickly (if upgrading)
+
+# Edit Archivist
+nano ~/Omnipath/backend/agents/system/archivist.py
+
+# Edit Commander
+nano ~/Omnipath/backend/agents/system/commander.py
+
+# Edit Guardian
+nano ~/Omnipath/backend/agents/system/guardian.py
+
+# 5. Monitor System Memory Health
+
+# Check memory cores
+ls ~/Omnipath/backend/memory/memory_cores/
+
+# View a specific memory core (example: Guardian)
+cat ~/Omnipath/backend/memory/memory_cores/guardian_core.json
+
+# 6. Update Notes (always keep improving Omnipath)
+
+# Open notes file
+nano ~/Omnipath/command_notes.txt
+
+# 7. Important System Paths (for quick reference)
+
+# Agents Directory
+~/Omnipath/backend/agents/system/
+
+# Memory Logs Directory
+~/Omnipath/backend/memory/
+
+##############################################
+# End of Checklist
+##############################################

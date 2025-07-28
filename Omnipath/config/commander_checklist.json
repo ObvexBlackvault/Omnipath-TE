@@ -1,0 +1,11 @@
+{
+  "observe_field": true,
+  "check_event_bus": true,
+  "check_missions": true,
+  "track_warnings": true,
+  "detect_anomaly_patterns": true,
+  "write_field_memory": true,
+  "mission_response_summary": true,
+  "ping_archivist": false,
+  "alert_guardian_on_loop_error": true
+}

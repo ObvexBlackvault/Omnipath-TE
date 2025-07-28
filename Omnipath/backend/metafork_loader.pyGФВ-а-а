@@ -1,0 +1,22 @@
+from agents.system.archivist import Archivist
+from agents.system.guardian import Guardian
+from agents.system.commander import Commander
+
+# Initialize agents
+archivist = Archivist()
+guardian = Guardian()
+commander = Commander()
+
+# Run startup operations
+archived_logs = archivist.read_logs()
+
+# TEMP DISABLED: loop check to be re-added after full system stability
+# loops_found = guardian.loop_check(archived_logs)
+loops_found = []  # Placeholder for now
+
+env_status = guardian.check_env_health()
+commander.execute("initialize_protocol")
+
+print("Omnipath boot sequence complete.")
+print(f"System health: {env_status}")
+print(f"Detected loops: {len(loops_found)}")
