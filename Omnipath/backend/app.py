@@ -1,8 +1,8 @@
-from flask import Flask
-from routes.agents import agents_bp
+from fastapi import FastAPI
+from backend.api.status_api import status_router
+# other imports...
 
-app = Flask(__name__)
-app.register_blueprint(agents_bp)
+app = FastAPI()
 
-if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+app.include_router(status_router, prefix="/api")
+# other routers...

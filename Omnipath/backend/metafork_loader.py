@@ -3,7 +3,7 @@ from agents.system.archivist import Archivist
 from agents.system.commander import Commander
 from agents.system.guardian import Guardian
 from forks.fork_commander import ForkCommander
-from core.trace_log import write_trace
+from backend.core.trace_log import write_trace
 from utils.helpers import now
 
 # Initialize internal bots

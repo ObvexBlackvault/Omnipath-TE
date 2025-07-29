@@ -1,29 +1,16 @@
-import os
-import json
-from backend.core.trace_log import write_trace
-from backend.core.helpers import now
+# Minimal ForkBeta structure with status
+_agent_state = {
+    "status": "idle",
+    "mission": "None"
+}
 
-class AgentBeta:
-    def __init__(self, mission="Silent standby"):
-        self.name = "Agent_Beta"
-        self.mission = mission
+def get_status():
+    return _agent_state
 
-        write_trace({
-            "type": "fork_init",
-            "agent": self.name,
-            "mission": self.mission,
-            "timestamp": now()
-        })
+def boot():
+    _agent_state["status"] = "active"
+    _agent_state["mission"] = "Diagnostics"
 
-    def run(self):
-        self.heartbeat()
-
-    def heartbeat(self):
-        log = {
-            "type": "agent_ping",
-            "agent": self.name,
-            "status": "silent",
-            "timestamp": now()
-        }
-        write_trace(log)
-        print(f"[{self.name}] Heartbeat: {self.mission}")
+def stop():
+    _agent_state["status"] = "idle"
+    _agent_state["mission"] = "None"

@@ -1,5 +1,5 @@
 from utils.helpers import now, generate_id, log_event, safe_json
-from core.trace_log import write_trace
+from backend.core.trace_log import write_trace
 
 class AgentTask:
     def __init__(self, title, agent_id, data=None, priority=5):

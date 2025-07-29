@@ -1,5 +1,5 @@
 
-from core.memory_weight import MemoryWeight
+from backend.core.memory_weight import MemoryWeight
 
 class Commander:
     def __init__(self, reflex_core, doctrine):

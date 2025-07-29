@@ -1,5 +1,5 @@
 from utils.timeutils import now, generate_id, log_event
-from core.trace_log import write_trace
+from backend.core.trace_log import write_trace
 
 class AgentCore:
     def __init__(self, name, role="general", memory=None):

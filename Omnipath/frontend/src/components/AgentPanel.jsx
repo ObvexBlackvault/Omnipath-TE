@@ -1,52 +1,33 @@
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-export default function AgentPanel() {
-  const [agents, setAgents] = useState([]);
-  const [name, setName] = useState('');
+const AgentPanel = () => {
+  const [status, setStatus] = useState({ ForkAlpha: 'unknown', ForkBeta: 'unknown' });
 
-  const fetchAgents = async () => {
-    const res = await fetch("http://localhost:5000/api/agents");
-    const data = await res.json();
-    setAgents(data);
-  };
-
-  const registerAgent = async () => {
-    const body = {
-      agent_id: crypto.randomUUID(),
-      name: name || 'Unnamed Agent'
-    };
-
-    await fetch("http://localhost:5000/api/agents", {
-      method: 'POST',
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
-
-    setName('');
-    fetchAgents();
+  const fetchStatus = async () => {
+    try {
+      const response = await axios.get('/api/status');
+      setStatus(response.data);
+    } catch (error) {
+      console.error('Failed to fetch agent status:', error);
+    }
   };
 
   useEffect(() => {
-    fetchAgents();
+    fetchStatus();
+    const interval = setInterval(fetchStatus, 5000);
+    return () => clearInterval(interval);
   }, []);
 
   return (
-    <div style={{ marginTop: "30px", color: "#0f0" }}>
-      <h2>Agent Registry</h2>
-      <input
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        placeholder="New Agent Name"
-        style={{ marginRight: "10px" }}
-      />
-      <button onClick={registerAgent}>Register</button>
+    <div className="agent-panel">
+      <h2>Agent Status</h2>
       <ul>
-        {agents.map(agent => (
-          <li key={agent.agent_id}>
-            <strong>{agent.name}</strong>  Status: {agent.status}, Priority: {agent.priority_level}
-          </li>
-        ))}
+        <li><strong>ForkAlpha:</strong> {status.ForkAlpha}</li>
+        <li><strong>ForkBeta:</strong> {status.ForkBeta}</li>
       </ul>
     </div>
   );
-}
+};
+
+export default AgentPanel;

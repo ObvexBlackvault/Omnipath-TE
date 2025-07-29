@@ -4,8 +4,8 @@ import time
 import signal
 import logging
 from datetime import datetime
-from core.breath_core import forge_breath_core
-from core.memory_core import forge_memory_core
+from backend.core.breath_core import forge_breath_core
+from backend.core.memory_core import forge_memory_core
 
 class Archivist:
     def __init__(self, base_path=None, cycle_seconds=60):

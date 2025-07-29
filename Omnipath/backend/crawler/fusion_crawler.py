@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 import json
 from datetime import datetime
-from core.trace_log import write_trace
+from backend.core.trace_log import write_trace
 from utils.helpers import generate_id
 
 SAVE_DIR = os.path.expanduser("~/Omnipath/backend/memory/crawler_parsed")

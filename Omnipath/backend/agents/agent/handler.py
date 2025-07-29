@@ -1,6 +1,6 @@
 from .task import AgentTask
 from utils.helpers import now, log_event
-from core.trace_log import write_trace
+from backend.core.trace_log import write_trace
 
 class AgentHandler:
     def __init__(self, agent_id, name="Unnamed Agent"):

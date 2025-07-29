@@ -1,7 +1,7 @@
 import os
 import json
 from utils.helpers import now
-from core.trace_log import write_trace
+from backend.core.trace_log import write_trace
 
 class AgentAlpha:
     def __init__(self, mission="Watch and wait"):

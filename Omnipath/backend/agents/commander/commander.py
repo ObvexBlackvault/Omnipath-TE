@@ -3,7 +3,7 @@ import json
 import signal
 import logging
 from logging.handlers import RotatingFileHandler
-from core.breath_core import forge_breath_core
+from backend.core.breath_core import forge_breath_core
 
 class Commander:
     def __init__(self, name="commander_soul_001"):

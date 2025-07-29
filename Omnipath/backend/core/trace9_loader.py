@@ -1,4 +1,4 @@
-from core.trace9_core import log_trace9_experience, recall_trace9_by_tag
+from backend.core.trace9_core import log_trace9_experience, recall_trace9_by_tag
 
 def log_agent_experience(agent_id, event, emotion=3):
     context = f"Agent {agent_id} experienced: {event}"
