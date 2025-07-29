@@ -1,24 +1,26 @@
-import json
-import os
+def validate_mission_payload(mission: dict) -> bool:
+    """
+    Validate that the incoming mission payload contains the required fields.
 
-REQUIRED_FIELDS = ["mission_id", "commands"]
+    Expected structure:
+    {
+        "command": "string",
+        "message": "string"
+    }
 
-def validate_mission(mission_path: str) -> dict:
-    if not os.path.exists(mission_path):
-        raise FileNotFoundError(f"Mission file not found: {mission_path}")
+    Returns True if valid, raises ValueError if invalid.
+    """
+    if not isinstance(mission, dict):
+        raise ValueError("Mission must be a dictionary.")
 
-    with open(mission_path, "r") as f:
-        try:
-            mission_data = json.load(f)
-        except json.JSONDecodeError as e:
-            raise ValueError(f"Invalid JSON format: {e}")
+    if "command" not in mission or not isinstance(mission["command"], str):
+        raise ValueError("Mission must include a 'command' string.")
 
-    for field in REQUIRED_FIELDS:
-        if field not in mission_data:
-            raise ValueError(f"Missing required mission field: {field}")
+    if "message" not in mission or not isinstance(mission["message"], str):
+        raise ValueError("Mission must include a 'message' string.")
 
-    if not isinstance(mission_data["commands"], list):
-        raise ValueError("The 'commands' field must be a list.")
+    return True
 
-    return mission_data
 
+# ✅ Provide alternate name for compatibility
+validate_mission = validate_mission_payload
