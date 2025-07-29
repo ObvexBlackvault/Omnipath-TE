@@ -1,17 +1,13 @@
-from backend.forks.agent_alpha import AgentAlpha
-from backend.forks.agent_beta import AgentBeta
-from backend.forks.agent_gamma import AgentGamma
+from backend.core.ForkFleetController import ForkFleetController
 
-def launch_fleet():
-    print("[FleetLauncher] Initializing agent fleet...")
+class FleetLauncher:
+    def __init__(self):
+        self.controller = ForkFleetController()
 
-    alpha = AgentAlpha()
-    beta = AgentBeta()
-    gamma = AgentGamma()
+    def launch(self):
+        self.controller.boot_all()
+        print("[FleetLauncher] All agents booted.")
 
-    alpha.run()
-    beta.run()
-    gamma.run()
-
-if __name__ == "__main__":
-    launch_fleet()
+    def deploy_mission(self, mission_data: dict):
+        self.controller.assign_mission_to_all(mission_data)
+        print(f"[FleetLauncher] Mission deployed to all agents: {mission_data}")

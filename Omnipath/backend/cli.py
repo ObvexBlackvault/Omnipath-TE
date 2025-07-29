@@ -4,5 +4,10 @@ from backend.api.status_api import status_router
 
 app = FastAPI()
 
-app.include_router(command_router, prefix="/api")
-app.include_router(status_router, prefix="/api")
+@app.get("/")
+def root():
+    return {"message": "Omnipath Backend API is live"}
+
+# These must be registered
+app.include_router(command_router)
+app.include_router(status_router)

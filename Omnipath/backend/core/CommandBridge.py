@@ -1,20 +1,27 @@
+from backend.core.ForkAlpha import ForkAlpha
 
 class CommandBridge:
     def __init__(self):
-        self.commands = {}
+        self.agents = {
+            "alpha": None,
+            "beta": None
+        }
 
-    def register(self, command_name, function):
-        self.commands[command_name] = function
-
-    def execute(self, command_name, *args, **kwargs):
-        if command_name in self.commands:
-            return self.commands[command_name](*args, **kwargs)
+    def handle_command(self, command: str):
+        if command == "boot_agent_alpha":
+            self.agents["alpha"] = ForkAlpha()
+            self.agents["alpha"].boot()
+            return {"status": "ForkAlpha booted", "agent": "alpha"}
+        elif command == "get_status":
+            return self.get_status()
         else:
-            raise ValueError(f"Command '{command_name}' not recognized.")
+            return {"error": f"Unknown command '{command}'"}
 
-# Example usage
-if __name__ == "__main__":
-    def test_func(x): return f"Echo: {x}"
-    bridge = CommandBridge()
-    bridge.register("echo", test_func)
-    print(bridge.execute("echo", "Omnipath"))
+    def get_status(self):
+        status = {}
+        for name, agent in self.agents.items():
+            if agent:
+                status[name] = agent.status()
+            else:
+                status[name] = "not running"
+        return status
