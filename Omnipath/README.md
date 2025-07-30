@@ -1,17 +1,9 @@
-# Omnipath-TE
+## 🛡 Intellectual Property Notice
 
-**Omnipath-TE** is a modular AI agent framework that connects a live React-based frontend with a FastAPI-powered backend. It manages autonomous agents, mission execution, memory synchronization, and real-time control through a CommandBridge.
+OmnibrainCouncil and its surrounding architecture (including microagent vector routing, domain-locked knowledge processing, and modular agent memory stores) is original intellectual property developed by **Obvex Blackvault** in 2025.
 
----
+This codebase is not licensed for public or commercial reuse.
 
-## 🔧 Setup Instructions
+All logic, architecture, naming schemes, and system designs are authored from scratch and may not be copied, forked, or repurposed without explicit written permission.
 
-### 1. Clone & Install
-
-```bash
-git clone https://github.com/ObvexBlackvault/Omnipath-TE.git
-cd Omnipath-TE
-python3 -m venv venv && source venv/bin/activate
-pip install -r backend/requirements.txt
-cd frontend && npm install
-
+If you're interested in licensing, partnership, or academic use — reach out via secure channels.
